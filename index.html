@@ -1,250 +1,373 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samson Lawal</title>
     <meta name="theme-color" content="#000" />
 
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="Styles.css" />
 
-<!-- CSS Link -->
-    <link rel="stylesheet" href="Styles.css">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <!-- Font Awesome Script -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <script
+      src="https://kit.fontawesome.com/eb3f0bc080.js"
+      crossorigin="anonymous"
+    ></script>
 
-<!-- Font Awesome Script -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Open+Sans&family=Poppins:wght@300;400;500;600;700&family=Quicksand&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-<script src="https://kit.fontawesome.com/eb3f0bc080.js" crossorigin="anonymous"></script>
+    <!-- Animate.CSS -->
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Open+Sans&family=Poppins:wght@300;400;500;600;700&family=Quicksand&family=Raleway:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
-<!-- Animate.CSS -->
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-<!-- AOS -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-
-</head>
-<body>
-
-
-<header>
-
-    <nav id="navbar">
-        <input type="checkbox" id="check">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
-            <i onclick="myFunction(this)" class="fas fa-bars"></i>
-
+          <i onclick="myFunction(this)" class="fas fa-bars"></i>
         </label>
         <ul>
-
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <div class="socials">
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://twitter.com/samsonlawal_"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/samsonlawal_/"><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-            </div>
-
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Portfolio">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <div class="socials">
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/samsonlawal_"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/samsonlawal_/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+          </div>
         </ul>
-    </nav>
+      </nav>
 
+      <div id="Home" class="header-text">
+        <h1 class="animate__animated animate__bounceInDown">
+          Samson Lawal<span class="dot">.</span>
+        </h1>
+        <h2
+          class="animate__animated animate__backInRight animate__duration-infinite"
+        >
+          I'm a <span>Front-end developer</span> from Nigeria.
+        </h2>
 
-    <div id="Home" class="header-text">
-        <h1 class="animate__animated animate__bounceInDown">Samson  Lawal<span class="dot">.</span> </h1>
-        <h2 class="animate__animated animate__backInRight animate__duration-infinite">I'm a <span>Front-end developer</span> from Nigeria.</h2>
+        <!-- <p>Contact Me</p> -->
+        <a href=""
+          ><i
+            class="fab fa-linkedin-in animate__animated animate__backInLeft"
+          ></i
+        ></a>
+        <a href="https://twitter.com/samsonlawal_"
+          ><i class="fab fa-twitter animate__animated animate__backInLeft"></i
+        ></a>
+        <a href="https://www.instagram.com/samsonlawal_/"
+          ><i class="fab fa-instagram animate__animated animate__backInLeft"></i
+        ></a>
+        <a href=""
+          ><i
+            class="fab fa-facebook-f animate__animated animate__backInLeft"
+          ></i
+        ></a>
+      </div>
 
-            <!-- <p>Contact Me</p> -->
-            <a href=""><i class="fab fa-linkedin-in animate__animated animate__backInLeft"></i></a>
-            <a href="https://twitter.com/samsonlawal_"><i class="fab fa-twitter animate__animated animate__backInLeft"></i></a>
-            <a href="https://www.instagram.com/samsonlawal_/"><i class="fab fa-instagram animate__animated animate__backInLeft"></i></a>
-            <a href=""><i class="fab fa-facebook-f animate__animated animate__backInLeft"></i></a>
-    </div>
+      <a href="#About"
+        ><i
+          id="arrow"
+          class="animate__animated animate__bounce animate__infinite animate__slower fas fa-chevron-down"
+        ></i
+      ></a>
+    </header>
 
-    <a href="#About"><i id="arrow" class="animate__animated animate__bounce animate__infinite animate__slower fas fa-chevron-down"></i></a>
-
-
-</header>
-
-
-
-
-<div id="About">
-    <h1>ABOUT ME<span class="dot">.</span> </h1>
-    <!-- <h2>ABOUT ME</h2> -->
-    <div class="about-div">
-        <img src="p-min.jpg" alt="passport">
+    <div id="About">
+      <h1>ABOUT ME<span class="dot">.</span></h1>
+      <!-- <h2>ABOUT ME</h2> -->
+      <div class="about-div">
+        <img src="p-min.jpg" alt="passport" />
         <div class="about-note">
-            <h3>Biography<span>.</span></h3>
-            <p class="about-note-p">Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-                Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+          <h3>Biography<span>.</span></h3>
+          <p class="about-note-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
 
-            </p>
-
-                <h3 class="skill-header">Skills<span>.</span></h3>
-                <div id="skills-div">
-                <p class="skills">JavaScript</p>
-                <p class="skills">React</p>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">Bootstrap</p>
-                <p class="skills">Tailwind CSS</p>
-
-                </div>
+          <h3 class="skill-header">Skills<span>.</span></h3>
+          <div id="skills-div">
+            <p class="skills">JavaScript</p>
+            <p class="skills">React</p>
+            <p class="skills">Git</p>
+            <p class="skills">HTML</p>
+            <p class="skills">CSS</p>
+            <p class="skills">Bootstrap</p>
+            <p class="skills">Tailwind CSS</p>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
 
+    <button id="arrow-up"><i class="fa-solid fa-caret-up"></i></button>
 
     <div id="Services">
-        <h1>My Services<span class="dot">.</span></h1>
-        <div class="service">
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-earth-africa"></i>
-                <h2>Lorem Ipsum</h2>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
+      <h1>My Services<span class="dot">.</span></h1>
+      <div class="service">
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
         </div>
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
     </div>
 
+    <div id="text">
+      <div>
+        <h1 class="animate__slideInUp">
+          I help businesses reach their clients <b>globally.</b>
+        </h1>
+      </div>
+    </div>
 
-    <!-- <div id="text">
-        <div><h1 class="animate__slideInUp">I help businesses reach their clients <b>globally.</b></h1></div>
-    </div> -->
+    <div id="Portfolio">
+      <h1>My Works<span class="dot">.</span></h1>
+      <div class="projects">
+        <div class="project">
+          <img class="project__image" src="Handy.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Handyman</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
 
-<div id="Contact">
-    <h1>Contact Me<span class="dot">.</span> </h1>
+        <div class="project">
+          <img class="project__image" src="Weights.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Weights</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
 
-    <div class="extra-contact">
+        <div class="project">
+          <img class="project__image" src="Movie.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Movie Release</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image" src="Weather.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Weathery</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image" src="Movie.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Movie Release</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img class="project__image" src="Handy.jpg" alt="" />
+          <div class="project__overlay">
+            <div class="project__text">Handyman</div>
+            <div class="project__p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Contact">
+      <h1>Contact Me<span class="dot">.</span></h1>
+
+      <div class="extra-contact">
         <div class="left-div">
-            <div class="container">
-                <div class="icon">
-                <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="info">
-                    <h4><b>Address</b></h4>
-                    <p>Lagos, Nigeria.</p>
-                </div>
+          <div class="container">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
             </div>
-            
-            <div class="container">
-                <div class="icon">
-                <i class="fa-solid fa-phone"></i>
-                </div>
-                <div class="info">
-                <h4><b>Phone</b></h4>
-                <p>+234 907 439 1793</p>
-                </div>
+            <div class="info">
+              <h4><b>Address</b></h4>
+              <p>Lagos, Nigeria.</p>
+            </div>
+          </div>
 
+          <div class="container">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
             </div>
+            <div class="info">
+              <h4><b>Phone</b></h4>
+              <p>+234 907 439 1793</p>
+            </div>
+          </div>
         </div>
-    
+
         <div class="right-div">
-            <div class="container">
-                <div class="icon">
-                <i class="fa-solid fa-envelope"></i>
-                </div>
-                <div class="info">
-                    <h4><b>Email</b></h4>
-                    <p>Lawal4211@gmail.com</p>
-                </div>
+          <div class="container">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h4><b>Email</b></h4>
+              <p>Lawal4211@gmail.com</p>
+            </div>
+          </div>
 
+          <div class="container">
+            <div class="icon">
+              <i class="fa-solid fa-share-nodes"></i>
             </div>
-            
-            <div class="container">
-                <div class="icon">
-                <i class="fa-solid fa-share-nodes"></i>
-                </div>
-                <div class="info">
-                    <h4><b>Socials</b></h4>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://twitter.com/samsonlawal_"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/samsonlawal_/"><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                </div>
+            <div class="info">
+              <h4><b>Socials</b></h4>
+              <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://twitter.com/samsonlawal_" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/samsonlawal_/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href=""><i class="fab fa-facebook-f" target="_blank"></i></a>
             </div>
+          </div>
         </div>
-    
-    </div>
+      </div>
 
-    <h1>Send Me a Message<span class="dot">.</span></h1>
+      <h3>Send Me a Message<span class="dot">.</span></h3>
 
-    <form action="mail.php">
-
+      <form action="mail.php">
         <label for="name"></label>
-        <input type="text" name="name" class="name-input" placeholder="Name">
+        <input type="text" name="name" class="name-input" placeholder="Name" />
 
         <label for="email"></label>
-        <input type="text" name="email" class="email-input" placeholder="Email">
+        <input
+          type="text"
+          name="email"
+          class="email-input"
+          placeholder="Email"
+        />
 
         <label for="subject"></label>
-        <input type="text" name="subject" class="subject-input" placeholder="Subject">
+        <input
+          type="text"
+          name="subject"
+          class="subject-input"
+          placeholder="Subject"
+        />
 
         <label for="message"></label>
-        <textarea name="message" id="" placeholder="Message" cols="30" rows="10"></textarea>
-        <input type="button" class="submit-btn"  value="Send Message">
-    </form>
+        <textarea
+          name="message"
+          id=""
+          placeholder="Message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button class="submit-btn">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
 
-</div>
-
-
-<footer id="footer">
-    <p>© Copyright 2021 Samson. All Rights Reserved.</p>
-    <!-- <a href="#Home"><i id="arrow" class="fas fa-arrow-circle-down"></i></a> -->
-</footer>
+    <footer id="footer">
+      <p>© Copyright 2021 Samson. All Rights Reserved.</p>
+      <!-- <a href="#Home"><i id="arrow" class="fas fa-arrow-circle-down"></i></a> -->
+    </footer>
     <script src="app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-</body>
+  </body>
 </html>
