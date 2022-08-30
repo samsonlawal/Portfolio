@@ -76,10 +76,10 @@ header {
 }
 
 .header-text {
-  padding-top: 230px;
-  margin-left: 0px;
+  padding-top: 150px;
+  padding-left: 375px;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .header-text h2 span {
@@ -91,7 +91,7 @@ header h1 {
   letter-spacing: normal;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 header h2 {
@@ -271,6 +271,27 @@ header h2 {
   display: inline;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 0.5px;
+}
+
+.arrow-up {
+  width: 60px;
+  height: 60px;
+  background-color: #6b8e4e;
+  border-radius: 50%;
+  font-size: 35px;
+  padding-top: 3px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  visibility: hidden;
+}
+
+.arrow-up:active {
+  background: #40532f;
+}
+
+.arrow-up-appear {
+  visibility: visible;
 }
 
 /* Services */
