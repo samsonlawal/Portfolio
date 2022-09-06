@@ -75,25 +75,37 @@ header {
 }
 
 .header-text {
-  padding-top: 150px;
-  padding-left: 375px;
-  width: 100%;
-  text-align: left;
+  /* padding-top: 150px; */
+  padding-left: 0px;
+  width: fit-content;
+  text-align: center;
+  margin: 0px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.header-text h2 span {
+.header-text p span {
   color: #6b8e4e;
 }
 
+/* header h3 {
+  color: white;
+  text-align: left;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 30px;
+} */
+
 header h1 {
-  font-size: 50px;
+  font-size: 45px;
   letter-spacing: normal;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
-header h2 {
+header p {
   font-size: 22px;
   color: rgb(233, 233, 233, 0.8);
   font-family: "Poppins", sans-serif;
@@ -121,7 +133,7 @@ header h2 {
   color: #fff;
   font-size: 20px;
   padding: 12px 13px;
-  margin: 15px 10px 10px 0px;
+  margin: 15px 10px 15px 0px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -154,8 +166,10 @@ header h2 {
 #arrow {
   font-size: 20px;
   color: white;
-  margin: 140px auto 0px 650px;
-  padding: 12px 13px;
+  position: absolute;
+  top: 90%;
+  left: 48.35%;
+  transform: translate(-50%, -50%);
 }
 
 /* text-div */
@@ -163,28 +177,34 @@ header h2 {
   width: 100%;
   height: 100vh;
   background: #6b8e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* color: #40532f; */
-  padding: 150px 150px 0px 150px;
+  padding: 0px 0px 0px 120px;
 }
 
 #text h1 {
-  font-size: 100px;
-  color: #000;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-size: 120px;
+  color: #395f18;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
   margin: auto;
+  line-height: 140px;
   /* text-transform: uppercase; */
 }
 
 #text b {
-  font-weight: bolder;
+  color: black;
 }
 
 /* ABOUT ME */
 
 #About {
   height: fit-content;
-  margin: 80px 0px;
+  max-width: 100%;
+  margin: 150px 8%;
+  padding: 0px 0px;
   background: rgb(0, 0, 0, 0.8);
 }
 
@@ -198,33 +218,36 @@ header h2 {
   font-family: "Poppins", sans-serif;
 }
 
-/* #About h2 {
-  top: 685px;
-  right: 550px;
-  font-weight: 700;
-  position: absolute;
-  letter-spacing: 2px;
-  padding-top: 5px;
-  font-size: 50px;
-  text-align: center;
-  color: rgb(255, 255, 255, 0.05);
-  font-family: "Poppins", sans-serif;
-} */
+.about-div {
+  /* width: 100%; */
+  height: fit-content;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img-div {
+  width: 25%;
+  height: 399px;
+  margin-right: 30px;
+}
 
 #About img {
-  width: 20%;
-  margin: 70px 10px 50px 150px;
-  box-shadow: 7px 7px #6b8e4e;
+  /* width: 100%; */
+  height: 399px;
+  margin: 0px;
+  /* box-shadow: 7px 7px #6b8e4e; */
 }
 
 .about-note {
-  background: rgba(255, 255, 255, 0.1);
-  margin: 70px 150px 50px 10px;
-  width: 55%;
-  float: right;
-  height: 405px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  margin: 0px;
+  width: 61%;
+  height: fit-content;
   text-align: left;
-  padding: 25px 45px;
+  padding: 0px 25px;
   color: white;
   /* box-shadow: 0 4px 8px 0 rgba(107, 142, 78, 0.2), 0 6px 20px 0 rgba(107, 142, 78, 0.19); */
 }
@@ -242,20 +265,15 @@ header h2 {
   padding-bottom: 40px;
 }
 
-/* Projects */
-
-/* #Skills-section {
-  width: 100%;
-  height: 700px;
-  background: #6b8e4e;
-} */
-
 .skill-header {
   margin-bottom: 10px;
 }
 
 #Skills-div {
-  height: auto;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -265,9 +283,9 @@ header h2 {
 .skills {
   padding: 10px 10px;
   background: rgba(0, 0, 0, 0.5);
-  margin-right: 10px;
+  margin: 0px 10px 10px 0px;
   text-align: center;
-  display: inline;
+  display: inline-block;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 0.5px;
 }
@@ -345,8 +363,14 @@ header h2 {
 }
 
 .box:hover {
-  background-color: #6b8e4e;
-  transition: ease-in-out 0.9s;
+  background: rgb(107, 142, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(107, 142, 78, 1) 0%,
+    rgba(103, 134, 77, 1) 35%,
+    rgba(61, 68, 55, 1) 100%
+  );
+  transition: linear-gradient 20s;
 }
 
 /* .box:hover i {
@@ -691,17 +715,50 @@ footer #arrow:hover {
   transition: ease-in-out 0.9s;
 }
 
-@media (max-width: 925px) {
-  nav ul {
-    margin-right: 30px;
-  }
-
-  nav ul li a {
-    font-size: 14px;
+/********************************************************BREAKS***********************************************/
+@media (max-width: 1200px) {
+  #About {
+    height: fit-content;
+    max-width: 100%;
+    margin: 150px 2%;
+    padding: 0px 0px;
+    background: rgb(0, 0, 0, 0.8);
   }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 1050px) {
+  #About {
+    height: fit-content;
+    max-width: 100%;
+    margin: 150px 3%;
+    padding: 0px 0px;
+    background: rgb(0, 0, 0, 0.8);
+  }
+
+  .about-div {
+    height: fit-content;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img-div {
+    width: 50%;
+    height: 450px;
+    margin: 50px 0px;
+  }
+
+  #About img {
+    height: 450px;
+    margin: 0px auto;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (max-width: 991px) {
   body {
     text-align: center;
     z-index: -2;
@@ -713,7 +770,6 @@ footer #arrow:hover {
     height: 70px;
     margin: 0px;
     z-index: 1;
-    /* z-index helps to keep the body behind the nav-ul */
   }
 
   ul {
@@ -796,61 +852,41 @@ footer #arrow:hover {
   }
 
   header h1 {
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: 2px;
     padding: 0px;
     color: white;
   }
 
-  header h2 {
-    font-size: 13px;
+  header p {
+    font-size: 20px;
     padding: 0px;
     color: rgb(233, 233, 233);
     font-family: "Quicksand", sans-serif;
+    font-weight: 500;
   }
 
-  .header-socials {
-    color: #000;
-    padding: 20px 0px 20px 0px;
-  }
-
-  .header-socials i {
-    font-size: 15px;
-    font-weight: 600;
-    padding: 12px 13px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background: rgb(233, 233, 233, 0.1);
-  }
-
-  .header-socials i:hover {
-    background: #6b8e4e;
-    transition: all 0.5s;
-  }
-
-  .header-socials i:nth-child(4) {
-    padding: 12px 16px;
-  }
-
-  #arrow {
-    font-size: 20px;
-    color: white;
-    margin-top: 140px;
-    margin-left: auto;
-    border-radius: 50%;
-    padding: 12px 13px;
-  }
-
-  #arrow:hover {
+  .dot {
+    font-size: 40px;
     color: #6b8e4e;
+  }
+
+  .header-text i {
+    color: #fff;
+    font-size: 17px;
+    padding: 12px 13px;
+    margin: 15px 10px 15px 0px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
   }
 
   /* ABOUT ME */
 
   #About {
     height: auto;
+    margin: 50px;
     background: rgb(0, 0, 0, 0.8);
-    padding-bottom: 90px;
+    padding-bottom: 30px;
   }
 
   #About h1 {
@@ -862,30 +898,27 @@ footer #arrow:hover {
     font-family: "Poppins", sans-serif;
   }
 
-  #About h2 {
-    position: absolute;
-    font-weight: 700;
-    letter-spacing: 2px;
-    top: 683px;
-    left: 0px;
-    padding: 0px;
-    font-size: 50px;
-    width: 100%;
-    color: rgb(255, 255, 255, 0.07);
-    font-family: "Poppins", sans-serif;
-  }
-
   .about-div {
-    width: 100%;
-    height: auto;
+    height: fit-content;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  img {
+  .about-img-div {
     width: 50%;
-    margin: 50px auto 50px;
-    box-shadow: 7px 7px #6b8e4e;
+    height: 450px;
+    margin-bottom: 50px;
   }
 
+  #About img {
+    height: 450px;
+    margin: 0px auto;
+    display: grid;
+    place-items: center;
+  }
   .about-note {
     background: rgba(255, 255, 255, 0.05);
     margin: auto;
@@ -900,12 +933,12 @@ footer #arrow:hover {
   .about-note h3 {
     color: #6b8e4e;
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-size: 25px;
     padding-bottom: 20px;
   }
 
-  .about-note p {
+  .about-note-p {
     font-family: "Quicksand", sans-serif;
     padding-bottom: 20px;
   }
@@ -964,6 +997,7 @@ footer #arrow:hover {
   .name-input {
     width: 100%;
     height: 50px;
+    margin-left: 0px;
   }
 
   .email-input {
@@ -1122,6 +1156,114 @@ footer #arrow:hover {
         background-size: cover;
         height: calc(100vh - 80px);
     } */
+}
+
+@media (max-width: 875px) {
+  /* ABOUT ME */
+
+  #About {
+    height: auto;
+    margin: 0px;
+    background: rgb(0, 0, 0, 0.8);
+    padding-bottom: 30px;
+  }
+
+  #About h1 {
+    letter-spacing: 2px;
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .about-div {
+    height: fit-content;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img-div {
+    width: 50%;
+    height: 450px;
+    margin-bottom: 50px;
+  }
+
+  #About img {
+    height: 450px;
+    margin: 0px auto;
+    display: grid;
+    place-items: center;
+  }
+  .about-note {
+    background: rgba(255, 255, 255, 0.05);
+    margin: auto;
+    width: 90%;
+    float: none;
+    height: auto;
+    text-align: left;
+    padding: 30px 30px;
+    color: white;
+  }
+
+  .about-note h3 {
+    color: #6b8e4e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .about-note-p {
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 505px) {
+  .about-img-div {
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  #About img {
+    width: 80%;
+    height: auto;
+  }
+
+  .about-note-p {
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 50px;
+  }
+
+  .skill-header {
+    margin-bottom: 0px;
+  }
+
+  #Skills-div {
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .skills {
+    padding: 10px 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.5px;
+  }
 }
 
 /* FONTS

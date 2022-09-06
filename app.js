@@ -51,3 +51,17 @@ function logW() {
 }
 
 window.addEventListener("scroll", logW);
+
+// const box = ["hat", "ball", "shirt", "shoe", "socks"];
+// const copied = box.slice(-3, -1);
+
+// console.log(copied);
+
+// // Output
+// ["shirt", "shoe", "socks"];
+
+// Array.slice();
+// Array.slice(start);
+// Array.slice(start, end);
+
+// Arraty Map Syntax
