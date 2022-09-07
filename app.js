@@ -64,4 +64,9 @@ window.addEventListener("scroll", logW);
 // Array.slice(start);
 // Array.slice(start, end);
 
-// Arraty Map Syntax
+const text = "It is Monday today";
+const check = text.startsWith("It");
+console.log(check); /* returns a boolean */
+
+// Output
+true;
