@@ -39,7 +39,6 @@ nav ul li {
 
 nav ul li a {
   color: white;
-  letter-spacing: 1px;
   font-size: 16px;
   text-transform: uppercase;
   padding: 5px 5px;
@@ -99,7 +98,6 @@ header {
 
 header h1 {
   font-size: 45px;
-  letter-spacing: normal;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -210,7 +208,6 @@ header p {
 }
 
 #About h1 {
-  letter-spacing: 1px;
   padding-top: 30px;
   font-size: 45px;
   font-weight: 600;
@@ -288,7 +285,6 @@ header p {
   text-align: center;
   display: inline-block;
   font-family: "Quicksand", sans-serif;
-  letter-spacing: 0.5px;
 }
 
 .arrow-up {
@@ -328,7 +324,6 @@ header p {
 }
 
 #Services h1 {
-  letter-spacing: 2px;
   padding: 0px 0px;
   font-size: 45px;
   text-align: center;
@@ -406,7 +401,6 @@ header p {
 }
 
 #Portfolio h1 {
-  letter-spacing: 2px;
   padding: 0px 0px;
   font-size: 45px;
   text-align: center;
@@ -503,7 +497,6 @@ header p {
 }
 
 #Contact h1 {
-  letter-spacing: 2px;
   padding: 0px 0px;
   font-size: 45px;
   text-align: center;
@@ -513,7 +506,6 @@ header p {
 }
 
 #Contact h3 {
-  letter-spacing: 2px;
   padding: 0px 0px;
   font-size: 35px;
   text-align: center;
@@ -586,7 +578,6 @@ textarea:focus {
   padding: 0px 0px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  letter-spacing: 1px;
 }
 
 .submit-btn:hover {
@@ -693,7 +684,6 @@ footer {
 
 footer p {
   font-size: 14px;
-  letter-spacing: 1px;
   font-family: "Quicksand", sans-serif;
   padding: 20px 0px 0px 0px;
   margin: 0px;
@@ -886,7 +876,6 @@ footer #arrow:hover {
   nav ul li a {
     color: white;
     font-size: 15px;
-    letter-spacing: 2px;
   }
 
   nav ul li a:hover {
@@ -945,7 +934,6 @@ footer #arrow:hover {
 
   header h1 {
     font-size: 36px;
-    letter-spacing: 0px;
     padding: 0px;
     color: white;
   }
@@ -982,7 +970,6 @@ footer #arrow:hover {
   }
 
   #About h1 {
-    letter-spacing: 2px;
     padding-top: 30px;
     font-size: 35px;
     text-align: center;
@@ -1072,7 +1059,6 @@ footer #arrow:hover {
   }
 
   #Contact h1 {
-    letter-spacing: 2px;
     padding: 20px 0px 50px 0px;
     font-size: 35px;
     text-align: center;
@@ -1140,7 +1126,6 @@ footer #arrow:hover {
     padding: 0px 0px;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
   }
 
   .submit-btn:hover {
@@ -1220,7 +1205,6 @@ footer #arrow:hover {
 
   footer p {
     font-size: 10px;
-    letter-spacing: 1px;
     font-family: "Quicksand", sans-serif;
     padding: 5px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -1279,7 +1263,6 @@ footer #arrow:hover {
   }
 
   #About h1 {
-    letter-spacing: 2px;
     padding-top: 30px;
     font-size: 35px;
     text-align: center;
@@ -1500,7 +1483,6 @@ footer #arrow:hover {
   }
 
   #Contact h3 {
-    letter-spacing: 1px;
     padding: 0px 0px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -1608,7 +1590,6 @@ footer #arrow:hover {
     padding: 0px 0px;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
   }
 }
 
@@ -1669,13 +1650,11 @@ footer #arrow:hover {
     text-align: center;
     display: inline-block;
     font-family: "Quicksand", sans-serif;
-    letter-spacing: 0.5px;
   }
 
   /* Services */
 
   #Services h1 {
-    letter-spacing: 2px;
     padding: 0px 0px;
     font-size: 40px;
     text-align: center;
@@ -1741,7 +1720,6 @@ footer #arrow:hover {
   }
 
   #Portfolio h1 {
-    letter-spacing: 2px;
     padding: 0px 0px;
     font-size: 40px;
     text-align: center;
@@ -1779,7 +1757,6 @@ footer #arrow:hover {
   }
 
   #Contact h1 {
-    letter-spacing: 0px;
     padding: 0px 0px;
     margin-bottom: 30px;
     font-size: 40px;
@@ -1790,7 +1767,6 @@ footer #arrow:hover {
   }
 
   #Contact h3 {
-    letter-spacing: 0px;
     padding: 0px 0px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -1823,7 +1799,7 @@ footer #arrow:hover {
     height: 130px;
     background: rgba(255, 255, 255, 0.07);
     color: white;
-    padding: 0px 40px;
+    padding: 0px 30px;
     margin: 10px 10px;
     display: flex;
     flex-direction: row;
@@ -1838,6 +1814,32 @@ footer #arrow:hover {
     align-items: center;
     flex-direction: column;
     margin-bottom: 0px;
+  }
+
+  .icon i {
+    font-size: 23px;
+    color: #6b8e4e;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+    color: rgba(225, 225, 225, 0.5);
+    font-family: "Raleway", sans-serif;
+  }
+
+  .info p {
+    font-size: 15px;
+    font-family: "Open Sans", Courier, monospace;
+  }
+
+  .info i {
+    font-size: 17px;
+    padding-right: 20px;
   }
 
   #Contact form {
@@ -1898,7 +1900,6 @@ footer #arrow:hover {
     padding: 0px 0px;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
   }
 }
 
