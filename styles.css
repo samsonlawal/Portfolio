@@ -1763,7 +1763,7 @@ footer #arrow:hover {
 
   .project {
     width: 90%;
-    height: 250px;
+    height: auto;
     margin: 15px;
     position: relative;
     cursor: pointer;
