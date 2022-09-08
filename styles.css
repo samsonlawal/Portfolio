@@ -772,6 +772,18 @@ footer #arrow:hover {
     line-height: 140px;
     /* text-transform: uppercase; */
   }
+
+  .name-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 7px;
+  }
+
+  .email-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 7px;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -823,6 +835,18 @@ footer #arrow:hover {
     margin: 15px;
     position: relative;
     cursor: pointer;
+  }
+
+  .name-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 6px;
+  }
+
+  .email-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 6px;
   }
 }
 
@@ -1041,7 +1065,7 @@ footer #arrow:hover {
 
   /* CONTACT */
 
-  #Contact {
+  /* #Contact {
     width: 100%;
     height: 170vh;
     background: #111;
@@ -1121,47 +1145,53 @@ footer #arrow:hover {
 
   .submit-btn:hover {
     background: #6b8e4e;
-  }
+  } */
 
   .extra-contact {
-    text-align: left;
-    display: inline-block;
-    width: 90%;
-    /* height: 440px; */
-    padding: 10px 0px;
-    margin: 0px 0px 0px 0px;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 30px;
+    margin: 80px 0px;
     background: none;
   }
 
-  .extra-contact div {
-    font-family: "Montserrat", sans-serif;
-    width: 100%;
-    height: 24%;
-    padding: 0px 0px;
-    margin-bottom: 5px;
+  .left-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .right-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .container {
+    width: 43%;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.07);
     color: white;
-    /* background: #000; */
-    /* border-bottom: 1px solid rgba(107, 142, 78, 1); */
+    padding: 0px 0px 0px 30px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
   }
 
-  .extra-contact div h4 {
-    letter-spacing: 1px;
-    font-size: 20px;
-    padding: 40px 0px 5px 0px;
+  .icon {
+    margin-right: 30px;
   }
 
-  .extra-contact div p {
-    font-size: 15px;
-    font-family: "Courier New", Courier, monospace;
-  }
-
-  .extra-contact div i {
-    font-size: 17px;
-    padding-right: 30px;
-  }
-
-  .extra-contact div a {
-    color: white;
+  .info {
+    text-align: left;
   }
 
   .extra-contact .fa-facebook-f:hover {
@@ -1337,7 +1367,7 @@ footer #arrow:hover {
     align-items: center;
     /* color: #40532f; */
     padding: 0px 90px;
-    text-align: center;
+    text-align: left;
   }
 
   #text h1 {
@@ -1346,7 +1376,7 @@ footer #arrow:hover {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     margin: auto;
-    line-height: 140px;
+    line-height: normal;
     /* text-transform: uppercase; */
   }
 
@@ -1372,6 +1402,213 @@ footer #arrow:hover {
 
   .project__overlay {
     padding: 0px 30px;
+  }
+
+  /* Contact */
+
+  .name-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 5px;
+  }
+
+  .email-input {
+    width: 43%;
+    height: 50px;
+    margin: 7px 5px;
+  }
+
+  .extra-contact {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 30px;
+    margin: 80px 0px;
+    background: none;
+  }
+
+  .left-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .right-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    width: 80%;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.07);
+    color: white;
+    padding: 0px 0px 0px 30px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .icon {
+    margin-right: 30px;
+  }
+
+  .info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 650px) {
+  #text {
+    width: 100%;
+    height: 100vh;
+    background: #6b8e4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #40532f; */
+    padding: 0px 90px;
+    text-align: left;
+  }
+
+  #text h1 {
+    font-size: 65px;
+    color: #395f18;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin: auto;
+    line-height: normal;
+    /* text-transform: uppercase; */
+  }
+
+  /* Contact */
+
+  #Contact {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0px 30px 0px;
+    background: #000;
+  }
+
+  #Contact h3 {
+    letter-spacing: 1px;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  .extra-contact {
+    display: block;
+    width: 85%;
+    height: fit-content;
+    padding: 0px 0px;
+    margin: 30px auto 50px auto;
+    background: none;
+  }
+
+  .left-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    width: 100%;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.07);
+    color: white;
+    padding: 0px 40px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .right-div {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  #Contact form {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0px;
+    text-align: center;
+    /* background-color: #111; */
+  }
+
+  input {
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    /* padding: 20px 20px; */
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+
+  .name-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  .email-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  .subject-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    height: auto;
+    margin: 7px 0px;
+    padding: 20px 20px;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    color: white;
+  }
+
+  .submit-btn {
+    width: 60%;
+    height: 50px;
+    background: #5f7e45;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
 }
 
@@ -1480,8 +1717,9 @@ footer #arrow:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
     /* color: #40532f; */
-    padding: 0px;
+    padding: 0px 0px 0px 50px;
   }
 
   #text h1 {
@@ -1489,7 +1727,7 @@ footer #arrow:hover {
     color: #395f18;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    margin: auto;
+    /* margin: auto; */
     line-height: normal;
     /* text-transform: uppercase; */
   }
@@ -1533,12 +1771,30 @@ footer #arrow:hover {
 
   /* Contact */
 
-  .extra-contact {
-    display: block;
+  #Contact {
     width: 100%;
     height: fit-content;
-    padding: 10px 30px;
-    margin: 0px 0px;
+    padding: 100px 0px 30px 0px;
+    background: #000;
+  }
+
+  #Contact h3 {
+    letter-spacing: 1px;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  .extra-contact {
+    display: block;
+    width: 85%;
+    height: fit-content;
+    padding: 0px 0px;
+    margin: 30px auto 50px auto;
     background: none;
   }
 
@@ -1548,11 +1804,11 @@ footer #arrow:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .container {
-    width: 43%;
+    width: 100%;
     height: 130px;
     background: rgba(255, 255, 255, 0.07);
     color: white;
@@ -1570,10 +1826,68 @@ footer #arrow:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 0px;
   }
 
-  .icon {
-    margin-right: 10px;
+  #Contact form {
+    width: 85%;
+    margin: auto;
+    padding: 0px 0px;
+    text-align: center;
+    /* background-color: #111; */
+  }
+
+  input {
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    /* padding: 20px 20px; */
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+
+  .name-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  .email-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  .subject-input {
+    width: 100%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    height: auto;
+    margin: 7px 0px;
+    padding: 20px 20px;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    color: white;
+  }
+
+  .submit-btn {
+    width: 60%;
+    height: 50px;
+    background: #5f7e45;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
 }
 
