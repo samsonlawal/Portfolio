@@ -945,7 +945,7 @@ footer #arrow:hover {
 
   header h1 {
     font-size: 36px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     padding: 0px;
     color: white;
   }
@@ -1774,12 +1774,23 @@ footer #arrow:hover {
   #Contact {
     width: 100%;
     height: fit-content;
-    padding: 100px 0px 30px 0px;
+    padding: 60px 0px 30px 0px;
     background: #000;
   }
 
+  #Contact h1 {
+    letter-spacing: 0px;
+    padding: 0px 0px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
   #Contact h3 {
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     padding: 0px 0px;
     margin-bottom: 20px;
     font-size: 30px;
@@ -1791,10 +1802,10 @@ footer #arrow:hover {
 
   .extra-contact {
     display: block;
-    width: 85%;
+    width: 90%;
     height: fit-content;
     padding: 0px 0px;
-    margin: 30px auto 50px auto;
+    margin: 0px auto 50px auto;
     background: none;
   }
 
@@ -1830,7 +1841,7 @@ footer #arrow:hover {
   }
 
   #Contact form {
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding: 0px 0px;
     text-align: center;
