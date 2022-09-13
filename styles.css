@@ -238,12 +238,12 @@ header p {
 }
 
 .about-note {
-  /* background: rgba(255, 255, 255, 0.1); */
+  /* background: rgba(255, 255, 255, 0.05); */
   margin: 0px;
   width: 61%;
   height: fit-content;
   text-align: left;
-  padding: 0px 25px;
+  padding: 15px 25px;
   color: white;
   /* box-shadow: 0 4px 8px 0 rgba(107, 142, 78, 0.2), 0 6px 20px 0 rgba(107, 142, 78, 0.19); */
 }
@@ -285,6 +285,30 @@ header p {
   font-family: "Quicksand", sans-serif;
 }
 
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-git-alt {
+  color: #f34f29;
+}
+
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
 .arrow-up {
   width: 60px;
   height: 60px;
@@ -295,7 +319,7 @@ header p {
   bottom: 30px;
   right: 30px;
   visibility: hidden;
-  border: none;
+  border: 2px solid #202020;
   border-radius: 50%;
 }
 
@@ -945,7 +969,7 @@ footer p {
     padding: 0px;
     color: rgb(233, 233, 233);
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .dot {

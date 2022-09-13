@@ -38,19 +38,18 @@ window.addEventListener("scroll", arrowAppear);
 
 ScrollReveal().reveal("#About");
 
-function logW() {
-  const arrowUp = document.querySelector(".arrow-up");
-  var scrollvalue = window.scrollY;
-  if (scrollvalue >= 1940 && scrollvalue <= 2630) {
-    arrowUp.classList.add("arrow-bg");
-  } else {
-    arrowUp.classList.remove("arrow-bg");
-  }
+// function logW() {
+//   const arrowUp = document.querySelector(".arrow-up");
+//   var scrollvalue = window.scrollY;
+//   if (scrollvalue >= 1940 && scrollvalue <= 2630) {
+//     arrowUp.classList.add("arrow-bg");
+//   } else {
+//     arrowUp.classList.remove("arrow-bg");
+//   }
 
-  // console.log(scrollvalue);
-}
+// }
 
-window.addEventListener("scroll", logW);
+// window.addEventListener("scroll", logW);
 
 // const box = ["hat", "ball", "shirt", "shoe", "socks"];
 // const copied = box.slice(-3, -1);
