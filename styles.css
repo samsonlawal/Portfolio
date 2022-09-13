@@ -19,7 +19,6 @@ nav {
   text-align: center;
   /* position: fixed; */
   top: 0;
-  /* background: #000; */
   z-index: 1;
 }
 
@@ -74,7 +73,6 @@ header {
 }
 
 .header-text {
-  /* padding-top: 150px; */
   padding-left: 0px;
   width: fit-content;
   text-align: center;
@@ -690,22 +688,6 @@ footer p {
   color: white;
 }
 
-footer #arrow {
-  position: absolute;
-  font-size: 40px;
-  color: white;
-  top: 2400px;
-  right: 50px;
-  margin: auto;
-  padding: auto 0px;
-  transform: rotate(180deg);
-}
-
-footer #arrow:hover {
-  color: #6b8e4e;
-  transition: ease-in-out 0.9s;
-}
-
 /********************************************************BREAKS***********************************************/
 @media (max-width: 1200px) {
   #About {
@@ -763,6 +745,15 @@ footer #arrow:hover {
     /* text-transform: uppercase; */
   }
 
+  /* Contact */
+
+  #Contact {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0px 40px 0px;
+    background: #000;
+  }
+
   .name-input {
     width: 43%;
     height: 50px;
@@ -778,9 +769,9 @@ footer #arrow:hover {
 
 @media (max-width: 1050px) {
   #About {
-    height: fit-content;
+    height: 1110px;
     max-width: 100%;
-    margin: 150px 3%;
+    margin: 50px;
     padding: 0px 0px;
     background: rgb(0, 0, 0, 0.8);
   }
@@ -805,6 +796,17 @@ footer #arrow:hover {
     margin: 0px auto;
     display: grid;
     place-items: center;
+  }
+
+  .about-note {
+    background: rgba(255, 255, 255, 0.05);
+    margin: auto;
+    width: 90%;
+    float: none;
+    height: auto;
+    text-align: left;
+    padding: 30px 30px;
+    color: white;
   }
 
   .projects {
@@ -963,15 +965,15 @@ footer #arrow:hover {
   /* ABOUT ME */
 
   #About {
-    height: auto;
+    /* height: auto; */
     margin: 50px;
     background: rgb(0, 0, 0, 0.8);
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   #About h1 {
     padding-top: 30px;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -979,7 +981,7 @@ footer #arrow:hover {
 
   .about-div {
     height: fit-content;
-    margin: 70px auto;
+    margin: 30px auto 70px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1024,6 +1026,15 @@ footer #arrow:hover {
 
   /* Services */
 
+  #Services h1 {
+    padding: 0px 0px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+
   .service {
     width: 90%;
     margin: auto;
@@ -1052,85 +1063,19 @@ footer #arrow:hover {
 
   /* CONTACT */
 
-  /* #Contact {
+  #Contact {
     width: 100%;
-    height: 170vh;
+    height: fit-content;
     background: #111;
   }
 
   #Contact h1 {
-    padding: 20px 0px 50px 0px;
-    font-size: 35px;
+    padding: 0px;
+    font-size: 45px;
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
   }
-
-  #Contact form {
-    width: 100%;
-    padding: 0px 10px;
-    text-align: center;
-  }
-
-  input {
-    background: rgb(245, 245, 245);
-    border: none;
-    padding: 20px 10px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 15px;
-  }
-
-  input:focus {
-    outline: none;
-  }
-
-  .name-input {
-    width: 100%;
-    height: 50px;
-    margin-left: 0px;
-  }
-
-  .email-input {
-    width: 100%;
-    height: 50px;
-    margin-left: 0px;
-  }
-
-  .subject-input {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 15px;
-  }
-
-  textarea {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    padding: 20px 10px;
-    font-family: "Poppins", sans-serif;
-    background: rgb(245, 245, 245);
-    border: none;
-  }
-
-  textarea:focus {
-    outline: none;
-  }
-
-  .submit-btn {
-    width: 100%;
-    height: 50px;
-    background: #5f7e45;
-    color: white;
-    border: none;
-    margin: 15px 0px 30px 0px;
-    padding: 0px 0px;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-  }
-
-  .submit-btn:hover {
-    background: #6b8e4e;
-  } */
 
   .extra-contact {
     display: block;
@@ -1171,6 +1116,18 @@ footer #arrow:hover {
     align-items: center;
   }
 
+  .submit-btn {
+    width: 30%;
+    height: 50px;
+    background: #5f7e45;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 0px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+
   .icon {
     margin-right: 30px;
   }
@@ -1204,28 +1161,12 @@ footer #arrow:hover {
   }
 
   footer p {
-    font-size: 10px;
+    /* font-size: 10px; */
     font-family: "Quicksand", sans-serif;
     padding: 5px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     color: white;
     line-height: 50px;
-  }
-
-  footer #arrow {
-    position: absolute;
-    font-size: 40px;
-    color: white;
-    top: 2400px;
-    right: 50px;
-    margin: auto;
-    padding: auto 0px;
-    transform: rotate(180deg);
-  }
-
-  footer #arrow:hover {
-    color: #6b8e4e;
-    transition: ease-in-out 0.9s;
   }
 
   /* #check:checked ~ ul{
@@ -1253,6 +1194,9 @@ footer #arrow:hover {
 }
 
 @media (max-width: 875px) {
+  h1 {
+    font-size: 95px;
+  }
   /* ABOUT ME */
 
   #About {
@@ -1263,8 +1207,8 @@ footer #arrow:hover {
   }
 
   #About h1 {
-    padding-top: 30px;
-    font-size: 35px;
+    /* padding-top: 30px; */
+    font-size: 45px;
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -1272,7 +1216,6 @@ footer #arrow:hover {
 
   .about-div {
     height: fit-content;
-    margin: 70px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1601,6 +1544,13 @@ footer #arrow:hover {
     top: 90%;
     left: 48.35%;
     transform: translate(-50%, -50%);
+  }
+
+  #About {
+    height: 1300px;
+    margin: 50px 15px;
+    background: rgb(0, 0, 0, 0.8);
+    padding-bottom: 30px;
   }
 
   .about-div {

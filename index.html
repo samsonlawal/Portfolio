@@ -133,8 +133,7 @@
     </header>
 
     <div id="About">
-      <h1>ABOUT ME<span class="dot">.</span></h1>
-      <!-- <h2>ABOUT ME</h2> -->
+      <h1>About Me<span class="dot">.</span></h1>
       <div class="about-div">
         <div class="about-img-div">
           <img src="p-min.jpg" alt="passport" />
@@ -170,7 +169,7 @@
     <button class="arrow-up"><i class="fa-solid fa-caret-up"></i></button>
 
     <div id="Services">
-      <h1>My Services<span class="dot">.</span></h1>
+      <h1>Services<span class="dot">.</span></h1>
       <div class="service">
         <div class="box">
           <i class="fa-solid fa-earth-africa"></i>
@@ -233,7 +232,7 @@
     </div>
 
     <div id="Portfolio">
-      <h1>My Works<span class="dot">.</span></h1>
+      <h1>Works<span class="dot">.</span></h1>
       <div class="projects">
         <div class="project">
           <img class="project__image" src="Handy.jpg" alt="" />
@@ -355,33 +354,45 @@
 
       <h1>Send Message<span class="dot">.</span></h1>
 
-      <form action="mail.php">
+      <form action="https://formspree.io/f/xdojabpq" method="POST">
         <label for="name"></label>
-        <input type="text" name="name" class="name-input" placeholder="Name" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="name-input"
+          placeholder="Name"
+          required
+        />
 
         <label for="email"></label>
         <input
           type="text"
           name="email"
+          id="email"
           class="email-input"
           placeholder="Email"
+          required
         />
 
         <label for="subject"></label>
         <input
           type="text"
           name="subject"
+          id="subject"
           class="subject-input"
           placeholder="Subject"
+          required
         />
 
         <label for="message"></label>
         <textarea
           name="message"
-          id=""
+          id="message"
           placeholder="Message"
           cols="30"
           rows="10"
+          required
         ></textarea>
         <button class="submit-btn">
           <i class="fa-solid fa-paper-plane"></i> Send Message
@@ -391,7 +402,6 @@
 
     <footer id="footer">
       <p>© Copyright 2021 Samson. All Rights Reserved.</p>
-      <!-- <a href="#Home"><i id="arrow" class="fas fa-arrow-circle-down"></i></a> -->
     </footer>
     <script src="app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
