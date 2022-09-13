@@ -1576,7 +1576,7 @@ footer p {
   .about-note {
     background: rgba(255, 255, 255, 0.05);
     margin: auto;
-    width: 95%;
+    width: 100%;
     float: none;
     height: auto;
     text-align: left;
