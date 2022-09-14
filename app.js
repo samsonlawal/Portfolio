@@ -1,23 +1,30 @@
 // Change menu icon onClick for small screen
-function myFunction(x) {
-  x.classList.toggle("fa-times");
-}
 
-// Nav background change on scroll
-// function changebg() {
-//   var navbar = document.querySelector("#navbar");
-//   var scrollvalue = window.scrollY;
-//   if (scrollvalue >= 200) {
-//     navbar.classList.add("bgColor");
-//   } else {
-//     navbar.classList.remove("bgColor");
-//   }
-// }
+const nav = document.querySelector("nav");
+const ul = document.querySelector("ul");
+const menu = document.querySelector(".fa-bars");
+const body = document.querySelector("body");
+const arrowup = document.querySelector(".arrow-up");
 
-// window.addEventListener("scroll", changebg);
+menu.addEventListener("click", () => {
+  menu.classList.toggle("fa-times");
+  ul.classList.toggle("active");
+  nav.classList.toggle("active");
+  body.classList.toggle("active");
+  arrowup.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    ul.classList.remove("active");
+    nav.classList.remove("active");
+    body.classList.remove("active");
+    arrowup.classList.remove("active");
+    menu.classList.remove("fa-times");
+  })
+);
 
 // Back to top
-
 const arrowUp = document.querySelector(".arrow-up");
 
 arrowUp.addEventListener("click", function () {
@@ -38,33 +45,15 @@ window.addEventListener("scroll", arrowAppear);
 
 ScrollReveal().reveal("#About");
 
-// function logW() {
-//   const arrowUp = document.querySelector(".arrow-up");
+// Nav background change on scroll
+// function changebg() {
+//   var navbar = document.querySelector("#navbar");
 //   var scrollvalue = window.scrollY;
-//   if (scrollvalue >= 1940 && scrollvalue <= 2630) {
-//     arrowUp.classList.add("arrow-bg");
+//   if (scrollvalue >= 200) {
+//     navbar.classList.add("bgColor");
 //   } else {
-//     arrowUp.classList.remove("arrow-bg");
+//     navbar.classList.remove("bgColor");
 //   }
-
 // }
 
-// window.addEventListener("scroll", logW);
-
-// const box = ["hat", "ball", "shirt", "shoe", "socks"];
-// const copied = box.slice(-3, -1);
-
-// console.log(copied);
-
-// // Output
-// ["shirt", "shoe", "socks"];
-
-// Array.slice();
-// Array.slice(start);
-// Array.slice(start, end);
-
-if ($("ul").is(":visible")) {
-  $("body").addClass("fixed-position");
-} else {
-  $("body").removeClass("fixed-position");
-}
+// window.addEventListener("scroll", changebg);

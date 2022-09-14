@@ -69,18 +69,18 @@
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <header>
+    <header id="Home">
       <nav id="navbar">
-        <input type="checkbox" id="check" />
+        <!-- <input type="checkbox" id="check" /> -->
         <label for="check" class="checkbtn">
           <i onclick="myFunction(this)" class="fas fa-bars"></i>
         </label>
         <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Services">Services</a></li>
-          <li><a href="#Portfolio">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a class="nav-link" href="#Home">Home</a></li>
+          <li><a class="nav-link" href="#About">About</a></li>
+          <li><a class="nav-link" href="#Contact">Contact</a></li>
+          <li><a class="nav-link" href="#Services">Services</a></li>
+          <li><a class="nav-link" href="#Portfolio">Projects</a></li>
           <div class="socials">
             <a href=""><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/samsonlawal_"
@@ -94,7 +94,7 @@
         </ul>
       </nav>
 
-      <div id="Home" class="header-text">
+      <div class="header-text">
         <!-- <h3>Hi 👋 I'm</h3> -->
         <h1 class="animate__animated animate__bounceInDown">
           Samson Lawal<span class="dot">.</span>
