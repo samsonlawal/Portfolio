@@ -140,7 +140,7 @@ header p {
   transition: 0.5s;
 }
 
-.header-text .fa-facebook-f {
+.header-text .fa-github {
   padding: 12px 16px;
 }
 
@@ -156,7 +156,7 @@ header p {
   --animate-duration: 1s;
 }
 
-.fa-facebook {
+.fa-github {
   --animate-duration: 0.5s;
 }
 
@@ -1201,8 +1201,8 @@ footer p {
     text-align: left;
   }
 
-  .extra-contact .fa-facebook-f:hover {
-    color: #4267b2;
+  .extra-contact .fa-github:hover {
+    color: #6b8e4e;
   }
 
   .extra-contact .fa-instagram:hover {
