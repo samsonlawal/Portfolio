@@ -164,7 +164,7 @@ header p {
   color: white;
   position: absolute;
   top: 90%;
-  left: 50%;
+  left: 49.35%;
   transform: translate(-50%, -50%);
 }
 
@@ -230,7 +230,7 @@ header p {
   margin-right: 30px;
 }
 
-#About img {
+.about-img-div img {
   /* width: 100%; */
   height: 399px;
   margin: 0px;
@@ -278,11 +278,16 @@ header p {
 
 .skills {
   padding: 10px 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.06);
   margin: 0px 10px 10px 0px;
   text-align: center;
   display: inline-block;
   font-family: "Quicksand", sans-serif;
+  line-height: normal;
+}
+
+.skills i {
+  font-size: 20px;
 }
 
 .fa-js {
@@ -309,6 +314,11 @@ header p {
   color: #563d7c;
 }
 
+.tailwind {
+  width: 25px;
+  height: auto;
+}
+
 .arrow-up {
   width: 60px;
   height: 60px;
@@ -321,6 +331,7 @@ header p {
   visibility: hidden;
   border: 2px solid #202020;
   border-radius: 50%;
+  z-index: 1;
 }
 
 .arrow-up:active {
@@ -792,8 +803,17 @@ footer p {
 }
 
 @media (max-width: 1050px) {
+  #arrow {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+  }
+
   #About {
-    height: 1110px;
+    height: 1250px;
     max-width: 100%;
     margin: 50px;
     padding: 0px 0px;
@@ -815,7 +835,7 @@ footer p {
     margin: 50px 0px;
   }
 
-  #About img {
+  .about-img-div img {
     height: 450px;
     margin: 0px auto;
     display: grid;
@@ -831,6 +851,10 @@ footer p {
     text-align: left;
     padding: 30px 30px;
     color: white;
+  }
+
+  .skills {
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .projects {
@@ -881,15 +905,15 @@ footer p {
   }
 
   ul {
-    padding-top: 120px;
+    padding-top: 30px;
     position: fixed;
     width: 100%;
-    height: 100%;
-    background-color: #000;
-    top: -100%;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    bottom: -100%;
     text-align: center;
     transition: cubic-bezier(1, 0, 0, 1) 0.5s;
-    z-index: -1;
+    z-index: 2;
   }
 
   nav ul li {
@@ -901,11 +925,11 @@ footer p {
 
   nav ul li a {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
   }
 
   nav ul li a:hover {
-    color: #b2c5b2;
+    color: #5f7e45;
     background: none;
   }
 
@@ -933,6 +957,7 @@ footer p {
     font-size: 20px;
     padding: 0 20px;
     cursor: pointer;
+    color: rgb(63, 63, 63);
   }
 
   .socials i:hover {
@@ -1018,7 +1043,7 @@ footer p {
     margin-bottom: 50px;
   }
 
-  #About img {
+  .about-img-div img {
     height: 450px;
     margin: 0px auto;
     display: grid;
@@ -1090,7 +1115,7 @@ footer p {
   #Contact {
     width: 100%;
     height: fit-content;
-    background: #111;
+    background: #000;
   }
 
   #Contact h1 {
@@ -1193,22 +1218,31 @@ footer p {
     line-height: 50px;
   }
 
-  /* #check:checked ~ ul{
-        top: 0;
-    }
+  #check:checked ~ ul {
+    bottom: 0;
+  }
 
-    #check:checked ~ .checkbtn{
-      color: #fff;
-    }
+  #check:checked ~ .checkbtn {
+    color: rgb(63, 63, 63);
+  }
 
-    #check:checked ~ label.logo{
+  #check:checked ~ nav {
+    position: fixed;
+  }
+
+  #check:checked ~ body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  /* #check:checked ~ label.logo{
       display: none;
     } */
 
-  /* #check:checked ~ .scroll{
-        position: absolute;
-        display: none;
-    } */
+  /* #check:checked ~ .scroll {
+    position: absolute;
+    display: none;
+  } */
 
   /* section{
         background: url(bg.jpg) no-repeat;
@@ -1220,6 +1254,15 @@ footer p {
 @media (max-width: 875px) {
   h1 {
     font-size: 95px;
+  }
+
+  #arrow {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 48.7%;
+    transform: translate(-50%, -50%);
   }
   /* ABOUT ME */
 
@@ -1252,7 +1295,7 @@ footer p {
     margin-bottom: 50px;
   }
 
-  #About img {
+  .about-img-div img {
     height: 450px;
     margin: 0px auto;
     display: grid;
@@ -1566,7 +1609,7 @@ footer p {
     color: white;
     position: absolute;
     top: 90%;
-    left: 48.35%;
+    left: 48.2%;
     transform: translate(-50%, -50%);
   }
 
@@ -1592,7 +1635,7 @@ footer p {
     margin-bottom: 50px;
   }
 
-  #About img {
+  .about-img-div img {
     width: 80%;
     height: auto;
   }

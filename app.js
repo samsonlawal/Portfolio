@@ -63,9 +63,8 @@ ScrollReveal().reveal("#About");
 // Array.slice(start);
 // Array.slice(start, end);
 
-const text = "It is Monday today";
-const check = text.startsWith("It");
-console.log(check); /* returns a boolean */
-
-// Output
-true;
+if ($("ul").is(":visible")) {
+  $("body").addClass("fixed-position");
+} else {
+  $("body").removeClass("fixed-position");
+}
