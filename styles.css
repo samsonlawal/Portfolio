@@ -217,7 +217,7 @@ header p {
 
 .about-div {
   /* width: 100%; */
-  height: fit-content;
+  height: 400px;
   margin: 70px auto;
   display: flex;
   flex-direction: row;
@@ -242,11 +242,19 @@ header p {
   /* background: rgba(255, 255, 255, 0.05); */
   margin: 0px;
   width: 61%;
-  height: fit-content;
+  height: 100%;
   text-align: left;
-  padding: 15px 25px;
+  padding: 0px;
   color: white;
+  position: relative;
   /* box-shadow: 0 4px 8px 0 rgba(107, 142, 78, 0.2), 0 6px 20px 0 rgba(107, 142, 78, 0.19); */
+}
+
+.about-content {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 30;
 }
 
 .about-note h3 {
@@ -259,7 +267,12 @@ header p {
 
 .about-note-p {
   font-family: "Quicksand", sans-serif;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+}
+
+.skill-content {
+  position: absolute;
+  bottom: 0;
 }
 
 .skill-header {
