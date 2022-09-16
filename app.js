@@ -57,3 +57,21 @@ ScrollReveal().reveal("#About");
 // }
 
 // window.addEventListener("scroll", changebg);
+
+// Form Submission Message
+function message(e) {
+  e.preventDefault();
+  const name = document.querySelector("#name").value;
+  const email = document.querySelector("#email").value;
+  const subject = document.querySelector("#subject").value;
+  const Message = document.querySelector("#message").value;
+  const success = document.querySelector(".success").value;
+  const danger = document.querySelector(".danger").value;
+
+  if (name === "" || email === "" || subject === "" || Message === "") {
+    danger.style.display = "block";
+  } else {
+  }
+
+  console.log("works");
+}

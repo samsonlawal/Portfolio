@@ -240,7 +240,7 @@ header p {
 
 .about-note {
   /* background: rgba(255, 255, 255, 0.05); */
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
   width: 61%;
   height: 100%;
   text-align: left;
@@ -254,7 +254,6 @@ header p {
   width: 100%;
   position: absolute;
   top: 0;
-  right: 30;
 }
 
 .about-note h3 {
@@ -267,7 +266,7 @@ header p {
 
 .about-note-p {
   font-family: "Quicksand", sans-serif;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .skill-content {
@@ -293,7 +292,7 @@ header p {
 .skills {
   padding: 10px 10px;
   background: rgba(255, 255, 255, 0.06);
-  margin: 0px 10px 10px 0px;
+  margin: 10px 10px 0px 0px;
   text-align: center;
   display: inline-block;
   font-family: "Quicksand", sans-serif;
@@ -553,7 +552,7 @@ header p {
 }
 
 #Contact h3 {
-  padding: 0px 0px;
+  padding: 50px 0px 10px 0px;
   font-size: 35px;
   text-align: center;
   color: white;
@@ -563,7 +562,7 @@ header p {
 
 #Contact form {
   width: 100%;
-  padding: 50px 30px;
+  padding: 10px 30px 50px 30px;
   text-align: center;
   /* background-color: #111; */
 }
@@ -632,12 +631,26 @@ textarea:focus {
   transition: ease-in-out 0.5s;
 }
 
+.success {
+  display: none;
+  color: rgb(0, 199, 0);
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px;
+}
+
+.danger {
+  display: none;
+  color: red;
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px;
+}
+
 .extra-contact {
   display: block;
   width: 100%;
   height: fit-content;
   padding: 10px 30px;
-  margin: 80px 0px;
+  margin: 50px 0px 80px 0px;
   background: none;
 }
 
@@ -865,6 +878,16 @@ footer p {
     text-align: left;
     padding: 30px 30px;
     color: white;
+  }
+
+  .about-content {
+    width: 100%;
+    position: static;
+    top: 0;
+  }
+
+  .skill-content {
+    position: static;
   }
 
   .skills {
@@ -1792,7 +1815,7 @@ footer p {
   }
 
   #Contact h3 {
-    padding: 0px 0px;
+    padding: 30px 0px 0px 0px;
     margin-bottom: 20px;
     font-size: 30px;
     text-align: center;
@@ -1868,7 +1891,7 @@ footer p {
   }
 
   #Contact form {
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 0px 0px;
     text-align: center;
