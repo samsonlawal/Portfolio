@@ -817,15 +817,23 @@ footer p {
   }
 
   .name-input {
-    width: 43%;
+    width: 45%;
     height: 50px;
     margin: 7px 7px;
   }
 
   .email-input {
-    width: 43%;
+    width: 45%;
     height: 50px;
     margin: 7px 7px;
+  }
+
+  .subject-input {
+    width: 92%;
+  }
+
+  textarea {
+    width: 92%;
   }
 }
 
@@ -915,13 +923,13 @@ footer p {
   }
 
   .name-input {
-    width: 43%;
+    width: 45%;
     height: 50px;
     margin: 7px 6px;
   }
 
   .email-input {
-    width: 43%;
+    width: 45%;
     height: 50px;
     margin: 7px 6px;
   }
@@ -1419,16 +1427,44 @@ footer p {
 
   /* Contact */
 
+  input {
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    /* padding: 20px 20px; */
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+
   .name-input {
-    width: 43%;
+    width: 88%;
     height: 50px;
-    margin: 7px 5px;
+    margin: 7px 0px;
   }
 
   .email-input {
-    width: 43%;
+    width: 88%;
     height: 50px;
-    margin: 7px 5px;
+    margin: 7px 0px;
+  }
+
+  .subject-input {
+    width: 88%;
+    height: 50px;
+    margin: 7px 0px;
+  }
+
+  textarea {
+    width: 88%;
+    font-size: 15px;
+    height: auto;
+    margin: 7px 0px;
+    padding: 20px 20px;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 0.07);
+    border: none;
+    color: white;
   }
 
   .extra-contact {
@@ -1563,7 +1599,7 @@ footer p {
   }
 
   #Contact form {
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 0px 0px;
     text-align: center;
