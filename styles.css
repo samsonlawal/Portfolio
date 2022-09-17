@@ -487,7 +487,6 @@ header p {
 }
 
 .project:hover {
-  filter: grayscale(100%);
   transition: filter 0.9s;
 }
 
@@ -497,7 +496,6 @@ header p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   flex-direction: column;
@@ -507,6 +505,19 @@ header p {
   opacity: 0;
   transition: opacity 0.9s;
   text-align: center;
+  padding: 0px 20px;
+}
+
+.handy-overlay {
+  background: #495564;
+}
+
+.weights-overlay {
+  background-color: #000;
+}
+
+.movie-overlay {
+  background: #2c3333;
 }
 
 .project__overlay > * {
@@ -525,12 +536,23 @@ header p {
 .project__text {
   font-size: 20px;
   font-weight: 500;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .project__p {
   font-size: 15px;
   font-weight: lighter;
+}
+
+.project__overlay a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px 0px 0px 0px;
+}
+
+.project__overlay a i:hover {
+  color: #6b8e4e;
 }
 
 /* Contact */
