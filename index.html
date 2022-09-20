@@ -76,16 +76,19 @@
   <body>
     <header id="Home">
       <nav id="navbar">
-        <!-- <input type="checkbox" id="check" /> -->
         <label for="check" class="checkbtn">
           <i onclick="myFunction(this)" class="fas fa-bars"></i>
         </label>
         <ul>
-          <li><a class="nav-link" href="/">Home</a></li>
-          <li><a class="nav-link" href="#About">About</a></li>
-          <li><a class="nav-link" href="#Services">Services</a></li>
-          <li><a class="nav-link" href="#Portfolio">Projects</a></li>
-          <li><a class="nav-link" href="#Contact">Contact</a></li>
+          <!-- <li><a class="nav-link scroll" href="/">Home</a></li> -->
+          <li><a class="nav-link scroll" href="#About">About</a></li>
+          <li><a class="nav-link scroll" href="#Portfolio">Projects</a></li>
+          <li><a class="nav-link scroll" href="#Contact">Contact</a></li>
+          <li>
+            <a class="nav-link scroll" href="https://samsonlawal.hashnode.dev"
+              >Blog</a
+            >
+          </li>
           <div class="socials">
             <a href="https://www.linkedin.com/in/lawal-samson-83b8a91a6/"
               ><i class="fab fa-linkedin-in" target="_blank"></i
@@ -115,24 +118,34 @@
         </p>
 
         <!-- <p>Contact Me</p> -->
-        <a
-          href="https://www.linkedin.com/in/lawal-samson-83b8a91a6/"
-          target="_blank"
-          ><i
-            class="fab fa-linkedin-in animate__animated animate__backInLeft"
-          ></i
-        ></a>
-        <a href="https://twitter.com/samsonlawal_" target="_blank"
-          ><i class="fab fa-twitter animate__animated animate__backInLeft"></i
-        ></a>
-        <a href="https://www.instagram.com/samsonlawal_/" target="_blank"
-          ><i class="fab fa-instagram animate__animated animate__backInLeft"></i
-        ></a>
-        <a href="https://github.com/samsonlawal" target="_blank"
-          ><i
-            class="fa-brands fa-github animate__animated animate__backInLeft"
-          ></i
-        ></a>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/lawal-samson-83b8a91a6/"
+            target="_blank"
+            ><i
+              class="fab fa-linkedin-in animate__animated animate__backInLeft"
+            ></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/samsonlawal_" target="_blank"
+            ><i class="fab fa-twitter animate__animated animate__backInLeft"></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/samsonlawal_/" target="_blank"
+            ><i
+              class="fab fa-instagram animate__animated animate__backInLeft"
+            ></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://github.com/samsonlawal" target="_blank"
+            ><i
+              class="fa-brands fa-github animate__animated animate__backInLeft"
+            ></i
+          ></a>
+        </div>
       </div>
 
       <a href="#About"
@@ -189,61 +202,9 @@
       </div>
     </div>
 
-    <button class="arrow-up"><i class="fa-solid fa-caret-up"></i></button>
-
-    <div id="Services">
-      <h1>Services<span class="dot">.</span></h1>
-      <div class="service">
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="box">
-          <i class="fa-solid fa-earth-africa"></i>
-          <h2>Lorem Ipsum</h2>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </div>
-    </div>
+    <button onclick="window.location.href='/'" class="arrow-up">
+      <i class="fa-solid fa-caret-up"></i>
+    </button>
 
     <div id="text">
       <div>
@@ -417,7 +378,7 @@
     </div>
 
     <footer id="footer">
-      <p>© Copyright 2021 Samson. All Rights Reserved.</p>
+      <p>Copyright© 2022 Samson. All Rights Reserved.</p>
     </footer>
     <script src="app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

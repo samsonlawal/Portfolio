@@ -27,9 +27,9 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 // Back to top
 const arrowUp = document.querySelector(".arrow-up");
 
-arrowUp.addEventListener("click", function () {
-  window.scrollTo(0, 0);
-});
+// arrowUp.addEventListener("click", function () {
+//   window.scrollTo(0, 0);
+// });
 
 function arrowAppear() {
   const arrowUp = document.querySelector(".arrow-up");
@@ -77,11 +77,9 @@ function message(e) {
 }
 
 // Additional Link text
-document.queryStringAll('a[href^="#"]').onclick = function (e) {
-  e.preventDefault();
-  window.scrollTo(
-    0,
-    document.getElementById(this.attribute("href").substr(1)).offsetTop
-  );
-  return false;
-};
+// jQuery(document).ready(function ($) {
+//   $(".scroll").click(function (event) {
+//     event.preventDefault();
+//     $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 1000);
+//   });
+// });
