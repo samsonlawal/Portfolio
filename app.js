@@ -75,3 +75,13 @@ function message(e) {
 
   console.log("works");
 }
+
+// Additional Link text
+document.queryStringAll('a[href^="#"]').onclick = function (e) {
+  e.preventDefault();
+  window.scrollTo(
+    0,
+    document.getElementById(this.attribute("href").substr(1)).offsetTop
+  );
+  return false;
+};
