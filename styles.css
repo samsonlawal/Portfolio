@@ -653,18 +653,36 @@ textarea:focus {
   transition: ease-in-out 0.5s;
 }
 
-.success {
-  display: none;
-  color: rgb(0, 199, 0);
-  font-family: "Poppins", sans-serif;
-  margin: 20px 0px;
+.success-body {
+  overflow: hidden;
 }
 
-.danger {
-  display: none;
-  color: red;
-  font-family: "Poppins", sans-serif;
-  margin: 20px 0px;
+#success-header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.success-header div {
+  width: fit-content;
+  height: fit-content;
+}
+
+.success-cancel {
+  font-size: 22px;
+  position: absolute;
+  top: 10%;
+  left: 29%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.success-cancel a {
+  text-decoration: none;
 }
 
 .extra-contact {
