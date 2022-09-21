@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samson Lawal</title>
+    <title>Samson Lawal | The Frontend Developer</title>
     <meta name="theme-color" content="#000" />
 
     <link
@@ -81,15 +81,33 @@
         </label>
         <ul>
           <!-- <li><a class="nav-link scroll" href="/">Home</a></li> -->
-          <li><a class="nav-link scroll" href="#About">About</a></li>
-          <li><a class="nav-link scroll" href="#Portfolio">Projects</a></li>
-          <li><a class="nav-link scroll" href="#Contact">Contact</a></li>
-          <li><a class="nav-link scroll" href="#">Resume</a></li>
+          <li>
+            <a class="nav-link scroll" href="javascript: aboutScroll();"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scroll" href="javascript: servicesScroll();"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scroll" href="javascript: projectScroll();"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a class="nav-link scroll" href="javascript: contactScroll();"
+              >Contact</a
+            >
+          </li>
+          <!-- <li><a class="nav-link scroll" href="#">Resume</a></li>
+
           <li>
             <a class="nav-link scroll" href="https://samsonlawal.hashnode.dev"
               >Blog</a
             >
-          </li>
+          </li> -->
           <div class="socials">
             <a href="https://www.linkedin.com/in/lawal-samson-83b8a91a6/"
               ><i class="fab fa-linkedin-in" target="_blank"></i
@@ -107,8 +125,9 @@
         </ul>
       </nav>
 
+      <!-- Header Section -->
+
       <div class="header-text">
-        <!-- <h3>Hi 👋 I'm</h3> -->
         <h1 class="animate__animated animate__bounceInDown">
           Samson Lawal<span class="dot">.</span>
         </h1>
@@ -117,34 +136,26 @@
         >
           I'm a <span>Front-end developer</span> from Nigeria.
         </p>
-
-        <!-- <p>Contact Me</p> -->
-        <div>
+        <div class="linked-in animate__animated animate__backInLeft">
           <a
             href="https://www.linkedin.com/in/lawal-samson-83b8a91a6/"
             target="_blank"
-            ><i
-              class="fab fa-linkedin-in animate__animated animate__backInLeft"
-            ></i
+            ><i class="fab fa-linkedin-in"></i
           ></a>
         </div>
-        <div>
+        <div class="twitter animate__animated animate__backInLeft">
           <a href="https://twitter.com/samsonlawal_" target="_blank"
-            ><i class="fab fa-twitter animate__animated animate__backInLeft"></i
+            ><i class="fab fa-twitter"></i
           ></a>
         </div>
-        <div>
+        <div class="instagram animate__animated animate__backInLeft">
           <a href="https://www.instagram.com/samsonlawal_/" target="_blank"
-            ><i
-              class="fab fa-instagram animate__animated animate__backInLeft"
-            ></i
+            ><i class="fab fa-instagram"></i
           ></a>
         </div>
-        <div>
+        <div class="github animate__animated animate__backInLeft">
           <a href="https://github.com/samsonlawal" target="_blank"
-            ><i
-              class="fa-brands fa-github animate__animated animate__backInLeft"
-            ></i
+            ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </div>
@@ -157,6 +168,8 @@
       ></a>
     </header>
 
+    <!-- About Section -->
+
     <div id="About">
       <h1>About Me<span class="dot">.</span></h1>
       <div class="about-div">
@@ -167,13 +180,12 @@
           <div class="about-content">
             <h3>Biography<span>.</span></h3>
             <p class="about-note-p">
-              I'm a Front-end web developer. I build websites and softwares
-              using code. I help people and businesses build websites/softwares
-              that help them grow and get more clients basically using my skills
-              to solve thier problems and bring their ideas to life. I love
-              creating content to help people learn coding concepts easier. I am
-              passionate about building, learning new things and problem
-              solving.
+              I'm a Front-end web developer with 1+ years of exerience. I build
+              websites and softwares to help people and businesses grow and get
+              more clients - basically using my skills to solve thier problems
+              and bring their ideas to life. I am passionate about learning new
+              things, building projects, and problem solving. I also love
+              creating content to help people learn coding concepts easily.
 
               <br />
             </p>
@@ -204,18 +216,53 @@
       </div>
     </div>
 
-    <button onclick="window.location.href='/'" class="arrow-up">
+    <button class="arrow-up">
       <i class="fa-solid fa-caret-up"></i>
     </button>
+
+    <!-- Services Section -->
+
+    <div id="Services">
+      <h1>Services<span class="dot">.</span></h1>
+      <div class="service">
+        <div class="box">
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            I develop fast responsive websites ranging from simple single static
+            web pages to complex web appications
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h2>Web Design</h2>
+          <p>
+            All web designs should be user focused, I make sure to keep my
+            designs simple and focus on humanistic experience.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-display"></i>
+          <h2>Responsiveness</h2>
+          <p>
+            The best websites and web apps are responsive across all devices and
+            that's what I make sure to do.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Free text Section -->
 
     <div id="text">
       <div>
         <h1 class="animate__slideInUp">
-          <!-- I help <b>businesses</b> reach their clients <b>globally.</b> -->
           I bring your <b>ideas to life</b> using my skills
         </h1>
       </div>
     </div>
+
+    <!-- Projects Section -->
 
     <div id="Portfolio">
       <h1>Projects<span class="dot">.</span></h1>
@@ -256,8 +303,24 @@
             ></a>
           </div>
         </div>
+
+        <div class="project">
+          <img class="project__image" src="potimer.png" alt="" />
+          <div class="project__overlay potimer-overlay">
+            <div class="project__text">Potimer</div>
+            <div class="project__p">
+              Pomodoro timer that runs for 25 minutes with a start and stop
+              button.
+            </div>
+            <a href="https://potimer.netlify.app" target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- Contact Section -->
 
     <div id="Contact">
       <h1>Contact Me<span class="dot">.</span></h1>
@@ -322,7 +385,6 @@
 
         <h3>Send Message<span class="dot">.</span></h3>
 
-        <!-- https://formspree.io/f/xdojabpq -->
         <form
           action="success.html"
           method="POST"

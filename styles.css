@@ -151,20 +151,20 @@ header p {
   padding: 12px 16px;
 }
 
-.fa-linkedin-in {
-  --animate-duration: 2s;
-}
-
-.fa-twitter {
-  --animate-duration: 1.5s;
-}
-
-.fa-instagram {
+.header-text .linkedin-in {
   --animate-duration: 1s;
 }
 
-.fa-github {
+.header-text .twitter {
+  --animate-duration: 0.7s;
+}
+
+.header-text .instagram {
   --animate-duration: 0.5s;
+}
+
+.header-text .github {
+  --animate-duration: 0.3s;
 }
 
 #arrow {
@@ -525,6 +525,15 @@ header p {
 
 .movie-overlay {
   background: #2c3333;
+}
+
+.potimer-overlay {
+  background: #d5e8d8;
+  color: #606060;
+}
+
+.potimer-overlay i {
+  color: #606060;
 }
 
 .project__overlay > * {

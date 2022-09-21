@@ -27,9 +27,9 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 // Back to top
 const arrowUp = document.querySelector(".arrow-up");
 
-// arrowUp.addEventListener("click", function () {
-//   window.scrollTo(0, 0);
-// });
+arrowUp.addEventListener("click", function () {
+  window.scrollTo(0, 0);
+});
 
 function arrowAppear() {
   const arrowUp = document.querySelector(".arrow-up");
@@ -76,10 +76,22 @@ function message(e) {
   console.log("works");
 }
 
-// Additional Link text
-// jQuery(document).ready(function ($) {
-//   $(".scroll").click(function (event) {
-//     event.preventDefault();
-//     $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 1000);
-//   });
-// });
+function aboutScroll() {
+  var getMeTo = document.getElementById("About");
+  getMeTo.scrollIntoView({ behavior: "smooth" }, false);
+}
+
+function contactScroll() {
+  var getMeTo = document.getElementById("Contact");
+  getMeTo.scrollIntoView({ behavior: "smooth" }, false);
+}
+
+function servicesScroll() {
+  var getMeTo = document.getElementById("Services");
+  getMeTo.scrollIntoView({ behavior: "smooth" }, false);
+}
+
+function projectScroll() {
+  var getMeTo = document.getElementById("Portfolio");
+  getMeTo.scrollIntoView({ behavior: "smooth" }, false);
+}
