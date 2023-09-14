@@ -1914,85 +1914,11 @@ footer p {
     font-family: "Quicksand", sans-serif;
   }
 
-  /* Services */
-
-  #Services h1 {
-    padding: 0px 0px;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .service {
-    width: 90%;
-    margin: auto;
-    padding: 80px 0px 30px 0px;
-    /* background-color: #000; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .box {
-    width: 90%;
-    height: 335px;
-    background-color: #000;
-    color: white;
-    padding: 0px 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 15px;
-  }
-
-  /* text-div */
-  #text {
-    width: 100%;
-    height: fit-content;
-    background: #6b8e4e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    /* color: #40532f; */
-    padding: 50px 0px 50px 0px;
-  }
-
-  #text h1 {
-    font-size: 60px;
-    color: #395f18;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    /* margin: auto; */
-    line-height: normal;
-    width: 80%;
-  }
-
   /* Portfolio */
-  #Portfolio {
-    width: 100%;
-    height: fit-content;
-    padding: 80px 0px;
-    background: rgba(255, 255, 255, 0.06);
-  }
-
-  #Portfolio h1 {
-    padding: 0px 0px;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-  }
 
   .projects {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    margin: 0px;
     padding: 80px 0px 30px 0px;
     /* background-color: #000; */
     display: flex;
@@ -2002,11 +1928,39 @@ footer p {
   }
 
   .project {
-    width: 90%;
+    width: 100%;
+    height: fit-content;
+    margin: 30px 0px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* cursor: pointer; */
+    color: white;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .project_image_div {
+    width: 100%;
+    height: 285px;
+    margin: 0px;
+  }
+
+  .project__image {
+    display: block;
     height: auto;
-    margin: 15px;
+    max-width: 100%;
+    image-rendering: optimizeSpeed;
+  }
+
+  .project_description {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 285px;
+    /* background-color: #0077b5; */
+    text-align: center;
     position: relative;
-    cursor: pointer;
   }
 
   /* Contact */
