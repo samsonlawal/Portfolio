@@ -180,7 +180,16 @@ header p {
 #text {
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
+  background: rgb(106, 140, 77);
+  background: linear-gradient(
+    68deg,
+    rgba(106, 140, 77, 1) 63%,
+    rgba(74, 101, 50, 1) 100%
+  );
+=======
   background: #6b8e4e;
+>>>>>>> main
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,8 +199,13 @@ header p {
 }
 
 #text h1 {
+<<<<<<< HEAD
+  font-size: 100px;
+  color: #000;
+=======
   font-size: 120px;
   color: #395f18;
+>>>>>>> main
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   margin: auto;
@@ -200,7 +214,11 @@ header p {
 }
 
 #text b {
+<<<<<<< HEAD
+  color: white;
+=======
   color: black;
+>>>>>>> main
 }
 
 /* ABOUT ME */
@@ -242,6 +260,10 @@ header p {
   /* width: 100%; */
   height: 399px;
   margin: 0px;
+<<<<<<< HEAD
+  filter: grayscale(100%);
+=======
+>>>>>>> main
   /* box-shadow: 7px 7px #6b8e4e; */
 }
 
@@ -251,6 +273,17 @@ header p {
   width: 61%;
   height: 100%;
   text-align: left;
+<<<<<<< HEAD
+  padding: 0px 30px;
+  color: white;
+  position: relative;
+}
+
+.about-content {
+  width: 90%;
+  position: absolute;
+  top: 0%;
+=======
   padding: 0px;
   color: white;
   position: relative;
@@ -261,6 +294,7 @@ header p {
   width: 100%;
   position: absolute;
   top: 0;
+>>>>>>> main
 }
 
 .about-note h3 {
@@ -278,7 +312,11 @@ header p {
 
 .skill-content {
   position: absolute;
+<<<<<<< HEAD
+  bottom: 0%;
+=======
   bottom: 0;
+>>>>>>> main
 }
 
 .skill-header {
@@ -450,7 +488,11 @@ header p {
   width: 100%;
   height: fit-content;
   padding: 80px 0px;
+<<<<<<< HEAD
+  background: #000;
+=======
   background: rgba(255, 255, 255, 0.06);
+>>>>>>> main
 }
 
 #Portfolio h1 {
@@ -475,6 +517,45 @@ header p {
 }
 
 .project {
+<<<<<<< HEAD
+  width: 74%;
+  height: fit-content;
+  margin: 60px;
+  padding: 60px 60px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.project_index {
+  color: #6b8e4e;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* .project:nth-child(odd) {
+  width: 65%;
+  height: fit-content;
+  margin: 60px 0;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+} */
+
+/* .projects :nth-child(even) .projec{
+  width: 65%;
+  height: 285px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+} */
+
+=======
   width: 29%;
   height: 250px;
   margin: 15px;
@@ -482,11 +563,90 @@ header p {
   cursor: pointer;
 }
 
+>>>>>>> main
 /* .projects .box:hover {
   filter: grayscale(100%);
   transition: ease-in-out 0.3s;
 } */
 
+<<<<<<< HEAD
+.project_image_div {
+  /* float: left; */
+  width: 59%;
+  height: 285px;
+}
+
+.project__image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  image-rendering: optimizeSpeed;
+}
+
+.project__image:hover {
+  filter: grayscale();
+  transition: ease 0.1s;
+  transform: scale(1.02);
+}
+.project_description {
+  margin: 0;
+  padding: 0;
+  width: 36%;
+  height: 285px;
+  /* background-color: #0077b5; */
+  text-align: center;
+  position: relative;
+}
+
+.project_description h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.project_description .description {
+  color: rgb(233, 233, 233, 0.8);
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.project_description #skills-div {
+  padding-bottom: 15px;
+}
+
+.project_description .skills {
+  background: none;
+  font-size: 15px;
+  color: white;
+}
+
+.project_links a {
+  background: none;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(233, 233, 233, 0.8);
+  font-family: "Quicksand", sans-serif;
+  padding: 0 10px;
+  color: white;
+}
+
+.project_links a:hover {
+  color: #6b8e4e;
+  transition: 0.5s;
+}
+
+.project_links {
+  width: 100%;
+  height: 30px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+/* .project__overlay {
+=======
 .project__image {
   display: block;
   width: 100%;
@@ -498,6 +658,7 @@ header p {
 }
 
 .project__overlay {
+>>>>>>> main
   position: absolute;
   top: 0;
   left: 0;
@@ -513,9 +674,15 @@ header p {
   transition: opacity 0.9s;
   text-align: center;
   padding: 0px 20px;
+<<<<<<< HEAD
+} */
+
+/* .handy-overlay {
+=======
 }
 
 .handy-overlay {
+>>>>>>> main
   background: #495564;
 }
 
@@ -547,7 +714,11 @@ header p {
 
 .project__overlay:hover {
   opacity: 1;
+<<<<<<< HEAD
+} */
+=======
 }
+>>>>>>> main
 
 .project__text {
   font-size: 20px;
@@ -934,7 +1105,11 @@ footer p {
   }
 
   .about-note {
+<<<<<<< HEAD
+    /* background: rgba(255, 255, 255, 0.05); */
+=======
     background: rgba(255, 255, 255, 0.05);
+>>>>>>> main
     margin: auto;
     width: 90%;
     float: none;
@@ -996,10 +1171,17 @@ footer p {
     text-align: center;
     z-index: -2;
   }
+<<<<<<< HEAD
+  /* 
+  body.active {
+    overflow-y: hidden;
+  } */
+=======
 
   body.active {
     overflow-y: hidden;
   }
+>>>>>>> main
 
   nav {
     background: black;
@@ -1021,8 +1203,13 @@ footer p {
     background-color: rgb(0, 0, 0);
     bottom: -90%;
     text-align: center;
+<<<<<<< HEAD
+    transition: 0.8s;
+    z-index: 5;
+=======
     transition: 0.3s;
     /* z-index: 5; */
+>>>>>>> main
   }
 
   ul.active {
@@ -1158,7 +1345,11 @@ footer p {
     place-items: center;
   }
   .about-note {
+<<<<<<< HEAD
+    /* background: rgba(255, 255, 255, 0.05); */
+=======
     background: rgba(255, 255, 255, 0.05);
+>>>>>>> main
     margin: auto;
     width: 90%;
     float: none;
@@ -1382,7 +1573,11 @@ footer p {
     place-items: center;
   }
   .about-note {
+<<<<<<< HEAD
+    /* background: rgba(255, 255, 255, 0.05); */
+=======
     background: rgba(255, 255, 255, 0.05);
+>>>>>>> main
     margin: auto;
     width: 90%;
     float: none;
@@ -1749,7 +1944,11 @@ footer p {
   }
 
   .about-note {
+<<<<<<< HEAD
+    /* background: rgba(255, 255, 255, 0.05); */
+=======
     background: rgba(255, 255, 255, 0.05);
+>>>>>>> main
     margin: auto;
     width: 100%;
     float: none;
