@@ -1129,6 +1129,7 @@ footer .info {
     display: block;
     z-index: 1;
     margin: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .checkbtn:hover {
@@ -1142,6 +1143,7 @@ footer .info {
     top: 0;
     width: 100%;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .socials {
