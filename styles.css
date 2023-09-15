@@ -1098,7 +1098,6 @@ footer .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    user-select: none;
   }
 
   ul.active {
@@ -1130,7 +1129,6 @@ footer .info {
     display: block;
     z-index: 1;
     margin: none;
-    /* top: 70px; */
   }
 
   .checkbtn:hover {
@@ -1143,6 +1141,7 @@ footer .info {
     position: absolute;
     top: 0;
     width: 100%;
+    user-select: none;
   }
 
   .socials {
