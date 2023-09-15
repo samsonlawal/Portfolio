@@ -1080,10 +1080,10 @@ footer .info {
     margin: 0px;
     z-index: 1;
   }
-
+  /* 
   nav.active {
-    /* z-index: -1; */
-  }
+    z-index: -1;
+  } */
 
   ul {
     padding-top: 0px;
@@ -1877,7 +1877,7 @@ footer .info {
     float: none;
     height: auto;
     text-align: left;
-    padding: 30px 30px;
+    padding: 30px 0px;
     color: white;
   }
 
@@ -1953,7 +1953,7 @@ footer .info {
     margin: 0;
     padding: 0;
     width: 300px;
-    height: 285px;
+    height: auto;
     /* background-color: #0077b5; */
     text-align: center;
     position: relative;
