@@ -3,26 +3,34 @@
 const nav = document.querySelector("nav");
 const ul = document.querySelector("ul");
 const menu = document.querySelector(".fa-bars");
+const times = document.querySelector(".fa-times");
 const body = document.querySelector("body");
 const arrowup = document.querySelector(".arrow-up");
 
 menu.addEventListener("click", () => {
-  menu.classList.toggle("fa-times");
+  // menu.classList.toggle("fa-times");
   ul.classList.toggle("active");
   nav.classList.toggle("active");
   body.classList.toggle("active");
   arrowup.classList.toggle("active");
 });
 
-document.querySelectorAll(".nav-link").forEach((n) =>
-  n.addEventListener("click", () => {
-    ul.classList.remove("active");
-    nav.classList.remove("active");
-    body.classList.remove("active");
-    arrowup.classList.remove("active");
-    menu.classList.remove("fa-times");
-  })
-);
+times.addEventListener("click", () => {
+  // menu.classList.toggle("fa-times");
+  ul.classList.remove("active");
+  nav.classList.remove("active");
+  body.classList.remove("active");
+  arrowup.classList.remove("active");
+});
+
+// document.querySelectorAll(".nav-link").forEach((n) =>
+//   n.addEventListener("click", () => {
+//     ul.classList.remove("active");
+//     nav.classList.remove("active");
+//     body.classList.remove("active");
+//     arrowup.classList.remove("active");
+//   })
+// );
 
 // Back to top
 const arrowUp = document.querySelector(".arrow-up");

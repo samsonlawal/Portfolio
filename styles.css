@@ -12,6 +12,7 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
   background: #000;
   overflow-x: hidden;
+  border: none;
 }
 
 nav {
@@ -208,9 +209,10 @@ header p {
 #About {
   height: fit-content;
   max-width: 100%;
-  margin: 150px 8%;
+  margin: 150px auto;
   padding: 0px 0px;
   background: rgb(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 #About h1 {
@@ -223,7 +225,7 @@ header p {
 }
 
 .about-div {
-  /* width: 100%; */
+  width: 85%;
   height: 400px;
   margin: 70px auto;
   display: flex;
@@ -233,7 +235,7 @@ header p {
 }
 
 .about-img-div {
-  width: 25%;
+  width: fit-content;
   height: 399px;
   margin-right: 30px;
 }
@@ -248,7 +250,7 @@ header p {
 .about-note {
   /* background: rgba(255, 255, 255, 0.05); */
   margin: 0px 0px 10px 0px;
-  width: 61%;
+  width: 639px;
   height: 100%;
   text-align: left;
   padding: 0px 30px;
@@ -273,6 +275,7 @@ header p {
 .about-note-p {
   font-family: "Quicksand", sans-serif;
   padding-bottom: 20px;
+  line-height: 22px;
 }
 
 .skill-content {
@@ -364,84 +367,6 @@ header p {
 .arrow-bg {
   background-color: #000;
   color: #6b8e4e;
-}
-
-/* Services */
-
-#Services {
-  width: 100%;
-  height: fit-content;
-  padding: 80px 0px;
-  background: rgba(255, 255, 255, 0.06);
-}
-
-#Services h1 {
-  padding: 0px 0px;
-  font-size: 45px;
-  text-align: center;
-  color: white;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.service {
-  width: 90%;
-  margin: auto;
-  padding: 80px 0px 30px 0px;
-  /* background-color: #000; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.box {
-  width: 29%;
-  height: 335px;
-  background-color: #000;
-  color: white;
-  padding: 0px 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 15px;
-}
-
-.box:hover {
-  background: rgb(107, 142, 78);
-  background: linear-gradient(
-    180deg,
-    rgba(107, 142, 78, 1) 0%,
-    rgba(103, 134, 77, 1) 35%,
-    rgba(61, 68, 55, 1) 100%
-  );
-  transition: linear-gradient 20s;
-}
-
-/* .box:hover i {
-  background-color: #fff;
-  color: #6b8e4e;
-} */
-
-.box i {
-  font-size: 30px;
-  padding: 20px;
-  background: rgba(17, 17, 17, 0.778);
-  border-radius: 5px;
-  color: #6b8e4e;
-}
-
-.box h2 {
-  padding: 20px 0px;
-  font-family: "Poppins", sans-serif;
-}
-
-.box p {
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
 }
 
 /* Portfolio */
@@ -859,8 +784,8 @@ textarea:focus {
   color: white;
 }
 
-.info .fa-facebook-f:hover {
-  color: #4267b2;
+.info .fa-github:hover {
+  color: #000;
 }
 
 .info .fa-instagram:hover {
@@ -879,16 +804,33 @@ textarea:focus {
 
 footer {
   text-align: center;
-  height: 60px;
-  font-family: "Quicksand", sans-serif;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #6b8e4e; */
+  background: rgba(255, 255, 255, 0.04);
 }
 
-footer p {
-  font-size: 14px;
-  font-family: "Quicksand", sans-serif;
-  padding: 20px 0px 0px 0px;
+footer h4 {
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+  padding: 0px;
   margin: 0px;
   color: white;
+  width: 50%;
+}
+
+footer div {
+  width: 50%;
+  text-align: center;
+}
+
+footer .info {
+  width: 100%;
+  margin: 0;
 }
 
 /********************************************************BREAKS***********************************************/
@@ -897,44 +839,21 @@ footer p {
   #About {
     height: fit-content;
     max-width: 100%;
-    margin: 150px 2%;
+    margin: 150px auto;
     padding: 0px 0px;
     background: rgb(0, 0, 0, 0.8);
-  }
-
-  .box {
-    width: 40%;
-    height: 335px;
-    background-color: #000;
-    color: white;
-    padding: 0px 20px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 30px;
   }
 
-  #text {
-    width: 100%;
-    height: 100vh;
-    background: #6b8e4e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* color: #40532f; */
-    padding: 0px 120px;
-  }
-
-  #text h1 {
-    font-size: 90px;
-    color: #395f18;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    margin: auto;
-    line-height: 140px;
-    /* text-transform: uppercase; */
+  .about-note {
+    /* background: rgba(255, 255, 255, 0.05); */
+    margin: 0px 0px 10px 0px;
+    width: 639px;
+    height: 100%;
+    text-align: left;
+    padding: 0px 30px;
+    color: white;
+    position: relative;
   }
 
   /* Contact */
@@ -964,6 +883,56 @@ footer p {
 
   textarea {
     width: 92%;
+  }
+}
+
+@media (max-width: 1160px) {
+  #About {
+    height: fit-content;
+    max-width: 100%;
+    margin: 150px auto;
+    padding: 0px 0px;
+    background: rgb(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+  .about-div {
+    width: 90%;
+    height: 400px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img-div {
+    width: fit-content;
+    height: 399px;
+    margin-right: 30px;
+  }
+
+  .about-note {
+    /* background: rgba(255, 255, 255, 0.05); */
+    margin: 0px 0px 10px 0px;
+    width: 639px;
+    height: 100%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    position: relative;
+  }
+}
+
+@media (max-width: 1080px) {
+  .about-div {
+    width: 95%;
+    height: 400px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1105,7 +1074,7 @@ footer p {
   } */
 
   nav {
-    background: black;
+    background: #000;
     text-align: center;
     height: 70px;
     margin: 0px;
@@ -1113,19 +1082,22 @@ footer p {
   }
 
   nav.active {
-    position: fixed;
+    /* z-index: -1; */
   }
 
   ul {
-    padding-top: 30px;
+    padding-top: 0px;
     position: fixed;
     width: 100%;
-    height: 90%;
+    height: 100vh;
     background-color: rgb(0, 0, 0);
-    bottom: -90%;
+    bottom: -100%;
     text-align: center;
     transition: 0.8s;
-    z-index: 5;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   ul.active {
@@ -1154,13 +1126,22 @@ footer p {
     color: #fff;
     cursor: pointer;
     line-height: 70px;
-    display: inline-block;
+    display: block;
     z-index: 1;
     margin: none;
+    /* top: 70px; */
   }
 
   .checkbtn:hover {
     color: none;
+  }
+
+  ul.active .checkbtn {
+    height: 70px;
+    /* background: red; */
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 
   .socials {
@@ -1267,7 +1248,7 @@ footer p {
     float: none;
     height: auto;
     text-align: left;
-    padding: 30px 30px;
+    padding: 30px 0px 30px 30px;
     color: white;
   }
 
@@ -1417,20 +1398,35 @@ footer p {
   }
 
   /* FOOTER */
-
   footer {
     text-align: center;
-    height: 40px;
-    font-family: "Quicksand", sans-serif;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #6b8e4e; */
+    background: rgba(255, 255, 255, 0.04);
   }
 
-  footer p {
-    /* font-size: 10px; */
-    font-family: "Quicksand", sans-serif;
-    padding: 5px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+  footer h4 {
+    font-family: "poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
     color: white;
-    line-height: 50px;
+    width: 50%;
+  }
+
+  footer div {
+    width: 50%;
+    text-align: center;
+  }
+
+  footer .info {
+    width: 100%;
+    margin: 0;
+    text-align: center;
   }
 }
 
@@ -1473,7 +1469,7 @@ footer p {
   }
 
   .about-img-div {
-    width: 50%;
+    width: fit-content;
     height: 450px;
     margin-bottom: 50px;
   }
@@ -2116,6 +2112,33 @@ footer p {
     padding: 0px 0px;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
+  }
+
+  footer {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #6b8e4e; */
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  footer h4 {
+    font-size: 17px;
+    font-family: "poppins", sans-serif;
+    padding: 0px;
+    margin: 10px 0;
+    color: white;
+    width: 50%;
+  }
+
+  footer div {
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
   }
 }
 
