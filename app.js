@@ -23,14 +23,14 @@ times.addEventListener("click", () => {
   arrowup.classList.remove("active");
 });
 
-// document.querySelectorAll(".nav-link").forEach((n) =>
-//   n.addEventListener("click", () => {
-//     ul.classList.remove("active");
-//     nav.classList.remove("active");
-//     body.classList.remove("active");
-//     arrowup.classList.remove("active");
-//   })
-// );
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    ul.classList.remove("active");
+    nav.classList.remove("active");
+    body.classList.remove("active");
+    arrowup.classList.remove("active");
+  })
+);
 
 // Back to top
 const arrowUp = document.querySelector(".arrow-up");

@@ -177,33 +177,6 @@ header p {
   transform: translate(-50%, -50%);
 }
 
-/* text-div */
-#text {
-  width: 100%;
-  height: 100vh;
-  background: #6b8e4e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* color: #40532f; */
-  padding: 0px 120px 0px 120px;
-  text-align: left;
-}
-
-#text h1 {
-  font-size: 100px;
-  color: #000;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  margin: auto;
-  line-height: 160px;
-  /* text-transform: uppercase; */
-}
-
-#text b {
-  color: white;
-}
-
 /* ABOUT ME */
 
 #About {
@@ -373,7 +346,7 @@ header p {
 #Portfolio {
   width: 100%;
   height: fit-content;
-  padding: 80px 0px;
+  padding: 0px;
   background: #000;
 }
 
@@ -389,7 +362,7 @@ header p {
 .projects {
   width: 90%;
   margin: auto;
-  padding: 80px 0px 30px 0px;
+  padding: 0px;
   /* background-color: #000; */
   display: flex;
   justify-content: center;
@@ -400,7 +373,7 @@ header p {
 .project {
   width: fit-content;
   height: fit-content;
-  margin: 60px;
+  margin: 60px 0px 0px 0px;
   padding: 60px 60px;
   display: flex;
   justify-content: center;
@@ -507,58 +480,6 @@ header p {
   bottom: 0;
 }
 
-/* .project__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans serif;
-  opacity: 0;
-  transition: opacity 0.9s;
-  text-align: center;
-  padding: 0px 20px;
-} */
-
-/* .handy-overlay {
-  background: #495564;
-}
-
-.weights-overlay {
-  background-color: #000;
-}
-
-.movie-overlay {
-  background: #2c3333;
-}
-
-.potimer-overlay {
-  background: #d5e8d8;
-  color: #606060;
-}
-
-.potimer-overlay i {
-  color: #606060;
-}
-
-.project__overlay > * {
-  transform: translateY(20px);
-  transition: transform 0.9s;
-}
-
-.project__overlay:hover > * {
-  transform: translateY(0);
-}
-
-.project__overlay:hover {
-  opacity: 1;
-} */
-
 .project__text {
   font-size: 20px;
   font-weight: 500;
@@ -612,7 +533,6 @@ header p {
   width: 100%;
   padding: 10px 30px 50px 30px;
   text-align: center;
-  /* background-color: #111; */
 }
 
 input {
@@ -738,7 +658,6 @@ textarea:focus {
   margin: 0px 10px;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -810,8 +729,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* background-color: #6b8e4e; */
-  background: rgba(255, 255, 255, 0.04);
 }
 
 footer h4 {
@@ -846,7 +763,6 @@ footer .info {
   }
 
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: 0px 0px 10px 0px;
     width: 639px;
     height: 100%;
@@ -913,7 +829,6 @@ footer .info {
   }
 
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: 0px 0px 10px 0px;
     width: 639px;
     height: 100%;
@@ -957,7 +872,7 @@ footer .info {
   .projects {
     width: 100%;
     margin: auto;
-    padding: 80px 0px 30px 0px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -967,7 +882,7 @@ footer .info {
   .project {
     width: fit-content;
     height: fit-content;
-    margin: 60px 0;
+    margin: 60px 0px 0px 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -987,7 +902,6 @@ footer .info {
     padding: 0;
     width: 300px;
     height: 285px;
-    /* background-color: #0077b5; */
     text-align: center;
     position: relative;
     margin: 30px;
@@ -1026,7 +940,6 @@ footer .info {
   }
 
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: auto;
     width: 90%;
     float: none;
@@ -1138,7 +1051,6 @@ footer .info {
 
   ul.active .checkbtn {
     height: 70px;
-    /* background: red; */
     position: absolute;
     top: 0;
     width: 100%;
@@ -1208,7 +1120,6 @@ footer .info {
   /* ABOUT ME */
 
   #About {
-    /* height: auto; */
     margin: 50px;
     background: rgb(0, 0, 0, 0.8);
     padding-bottom: 0px;
@@ -1244,7 +1155,6 @@ footer .info {
     place-items: center;
   }
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: auto;
     width: 90%;
     float: none;
@@ -1286,7 +1196,6 @@ footer .info {
     width: 90%;
     margin: auto;
     padding: 80px 0px 30px 0px;
-    /* background-color: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1359,7 +1268,6 @@ footer .info {
     margin: 0px 10px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -1408,8 +1316,6 @@ footer .info {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* background-color: #6b8e4e; */
-    background: rgba(255, 255, 255, 0.04);
   }
 
   footer h4 {
@@ -1455,7 +1361,6 @@ footer .info {
   }
 
   #About h1 {
-    /* padding-top: 30px; */
     font-size: 45px;
     text-align: center;
     color: white;
@@ -1483,7 +1388,6 @@ footer .info {
     place-items: center;
   }
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: auto;
     width: 90%;
     float: none;
@@ -1510,7 +1414,6 @@ footer .info {
     width: 90%;
     margin: auto;
     padding: 80px 0px 30px 0px;
-    /* background-color: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1518,48 +1421,11 @@ footer .info {
     flex-wrap: wrap;
   }
 
-  .box {
-    width: 80%;
-    height: 335px;
-    background-color: #000;
-    color: white;
-    padding: 0px 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 15px;
-  }
-
-  #text {
-    width: 100%;
-    height: 90vh;
-    background: #6b8e4e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* color: #40532f; */
-    padding: 0px 90px;
-    text-align: left;
-  }
-
-  #text h1 {
-    font-size: 75px;
-    color: #395f18;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    margin: auto;
-    line-height: normal;
-    /* text-transform: uppercase; */
-  }
-
   /* Contact */
 
   input {
     background: rgba(255, 255, 255, 0.07);
     border: none;
-    /* padding: 20px 20px; */
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -1632,7 +1498,6 @@ footer .info {
     margin: 10px 20px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -1646,33 +1511,10 @@ footer .info {
 }
 
 @media (max-width: 650px) {
-  #text {
-    width: 100%;
-    height: fit-content;
-    background: #6b8e4e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* color: #40532f; */
-    padding: 50px 90px;
-    text-align: left;
-  }
-
-  #text h1 {
-    font-size: 65px;
-    color: #395f18;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    margin: auto;
-    line-height: normal;
-    /* text-transform: uppercase; */
-  }
-
   .projects {
     width: 100%;
     margin: 0px;
-    padding: 80px 0px 30px 0px;
-    /* background-color: #000; */
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1686,8 +1528,6 @@ footer .info {
     padding: 20px 20px;
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* cursor: pointer; */
     color: white;
     background: rgba(255, 255, 255, 0.04);
   }
@@ -1710,7 +1550,6 @@ footer .info {
     padding: 0;
     width: 300px;
     height: 285px;
-    /* background-color: #0077b5; */
     text-align: center;
     position: relative;
   }
@@ -1761,7 +1600,6 @@ footer .info {
     margin: 10px 10px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -1779,13 +1617,11 @@ footer .info {
     margin: auto;
     padding: 0px 0px;
     text-align: center;
-    /* background-color: #111; */
   }
 
   input {
     background: rgba(255, 255, 255, 0.07);
     border: none;
-    /* padding: 20px 20px; */
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -1846,7 +1682,7 @@ footer .info {
   }
 
   #About {
-    height: 1300px;
+    height: fit-content;
     margin: 50px 15px;
     background: rgb(0, 0, 0, 0.8);
     padding-bottom: 30px;
@@ -1873,7 +1709,6 @@ footer .info {
   }
 
   .about-note {
-    /* background: rgba(255, 255, 255, 0.05); */
     margin: auto;
     width: 100%;
     float: none;
@@ -1917,8 +1752,7 @@ footer .info {
   .projects {
     width: 100%;
     margin: 0px;
-    padding: 80px 0px 30px 0px;
-    /* background-color: #000; */
+    padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1932,8 +1766,6 @@ footer .info {
     padding: 20px 20px;
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* cursor: pointer; */
     color: white;
     background: rgba(255, 255, 255, 0.04);
   }
@@ -1956,7 +1788,6 @@ footer .info {
     padding: 0;
     width: 300px;
     height: fit-content;
-    /* background-color: #0077b5; */
     text-align: center;
     position: relative;
   }
@@ -2035,7 +1866,6 @@ footer .info {
     margin: 10px 10px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -2079,13 +1909,11 @@ footer .info {
     margin: auto;
     padding: 0px 0px;
     text-align: center;
-    /* background-color: #111; */
   }
 
   input {
     background: rgba(255, 255, 255, 0.07);
     border: none;
-    /* padding: 20px 20px; */
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
@@ -2142,8 +1970,6 @@ footer .info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #6b8e4e; */
-    background: rgba(255, 255, 255, 0.04);
   }
 
   footer h4 {
@@ -2152,18 +1978,17 @@ footer .info {
     padding: 0px;
     margin: 10px 0;
     color: white;
-    width: 50%;
+    width: 100%;
   }
 
   footer div {
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin: 10px 0;
   }
 }
 
 /* FONTS
-
 font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -2171,5 +1996,4 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-
 */
