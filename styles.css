@@ -315,6 +315,15 @@ header p {
   height: auto;
 }
 
+.mysql {
+  width: 30px;
+  height: auto;
+}
+.ts {
+  width: 18px;
+  height: auto;
+}
+
 .supabase {
   width: 16px;
   height: auto;
