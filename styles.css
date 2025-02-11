@@ -261,6 +261,11 @@ header p {
   margin-bottom: 10px;
 }
 
+.web {
+  font-weight: 400;
+  font-size: 14px;
+}
+
 #Skills-div {
   height: 100px;
   position: absolute;
@@ -326,6 +331,11 @@ header p {
 
 .supabase {
   width: 16px;
+  height: auto;
+}
+
+.next {
+  width: 50px;
   height: auto;
 }
 
