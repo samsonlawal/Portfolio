@@ -266,6 +266,10 @@ header p {
   font-size: 14px;
 }
 
+.work{
+  line-height: 40px;
+}
+
 #Skills-div {
   height: 100px;
   position: absolute;
